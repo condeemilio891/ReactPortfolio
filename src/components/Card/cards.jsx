@@ -1,9 +1,10 @@
 import React, {Component} from "react"
 import Yoda from "../../assets/yoda.jpeg"
 import Card from "./cardui"
+import "./card-style.css";
 
 
-class Cards extends Component{
+class MyCards extends Component{
     render() {
         return (
             <div className= "container-fluid d-flex justify-content-center">
@@ -12,16 +13,10 @@ class Cards extends Component{
                         <Card imgsrc={Yoda} title="project1"/>
                        
                     </div>
-                    {/* <div className="col-md-4">
-                        <Card imgsrc={Yoda} title="project2"/>
-                    </div>
-                    <div className="col-md-4">
-                        <Card/></div> */}
-
                 </div>
             </div>
         )
     }
 }
 
-export default Cards
+export default MyCards
