@@ -6,15 +6,16 @@ import Card from "../../components/Card/cards";
 import Image from "react-bootstrap/Image";
 import Profile from "../../assets/picOfMeProfessional.png"
 import "./About.css"
+import Galaxy from "../../assets/GalaxyBackground.jpg"
 
 const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <Container>
+        <Container id= "bg">
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
-              <Row className="justify-content-center mb-2 mr-2">
+              <Row className="justify-content-left mb-2 mr-2">
                 <Image id ="profile"src={Profile} roundedCircle />
               </Row>
             </Col>
