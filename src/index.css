@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 html,
 body,
 #root,
@@ -15,6 +16,8 @@ div[data-reactroot] {
 /* Tabs componenet */
 .tab-list {  border-bottom: 1px solid #ccc;
   padding-left: 0;
+  color: #ccc;
+  
 }
 
 .tab-list-item {
@@ -22,12 +25,16 @@ div[data-reactroot] {
   list-style: none;
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
+  background-color: #171d32;
 }
 
 .tab-list-active {
   background-color: white;
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
+  color: black;
 }
 
 /* End of Tabs component */
+
+/* card component */

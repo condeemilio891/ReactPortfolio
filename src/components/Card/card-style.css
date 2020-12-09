@@ -7,6 +7,7 @@ body{
 
 .card-hover{
   box-shadow: 5px 10px 20px 1px ; color: black;
+  transform:scale(1.3)
 }
 
 .card-body{
