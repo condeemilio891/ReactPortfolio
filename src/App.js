@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch  } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch  } from "react-router-dom";
 import Projects from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
-import Search from "./pages/Search";
+
 import MyNavbar from "./components/Navbar/MyNavbar";
 import Footer from "./components/Footer/footer.jsx";
 import Wrapper from "./components/Wrapper";
@@ -27,4 +27,10 @@ function App() {
   );
 }
 
+
+
+
+
+
 export default App;
+
