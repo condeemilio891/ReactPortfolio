@@ -15,8 +15,10 @@ import {faNode} from '@fortawesome/free-brands-svg-icons'
 import {faMapPin} from '@fortawesome/free-solid-svg-icons'
 import {faUserGraduate} from '@fortawesome/free-solid-svg-icons'
 import {faLanguage} from '@fortawesome/free-solid-svg-icons'
-import Satelight from "../../assets/satelight.png"
-import Nebula from "../../assets/Nebula.jpg"
+import {faPhone} from '@fortawesome/free-solid-svg-icons'
+import Button from 'react-bootstrap/Button'
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons'
+import {faList} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   return (
@@ -43,6 +45,20 @@ const About = () => {
                     <ListGroup.Item>
                   <FontAwesomeIcon icon={faLanguage} />
                     Spanish</ListGroup.Item>
+
+                    <ListGroup.Item>
+                  <FontAwesomeIcon icon={faList} />
+                    <div>
+                    <Button href="https://docs.google.com/document/d/1Rbz5gWwFHqjOh78-TLTi_wcWiNxMNhJJLNRJkclJYGI/edit?usp=sharing" variant="link">Resume</Button>
+                    </div></ListGroup.Item>
+
+                    <ListGroup.Item>
+                    <FontAwesomeIcon icon={faGithubAlt} />
+                      <div>
+                      <Button href="https://github.com/condeemilio891" variant="link">GitHub</Button>
+                      </div>
+                  
+                    </ListGroup.Item>
                 </ListGroup>
                 
               </Card>
@@ -62,7 +78,7 @@ const About = () => {
                     <Col id="rightBackground">
                       <ul id ="list-info">
                         <li>
-                        <FontAwesomeIcon icon={faReact} />
+                       
                           Emilio Conde</li>
                         
                         <li>
@@ -74,6 +90,10 @@ const About = () => {
                         <li>
                         <FontAwesomeIcon icon={faReact} />
                         Condeemilio891@gmail</li>
+                        <li>
+                        <FontAwesomeIcon icon={faPhone} />
+                        806-672-6544</li>
+                        
                       </ul>
 
                       

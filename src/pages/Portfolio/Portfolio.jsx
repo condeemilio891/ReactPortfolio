@@ -22,8 +22,8 @@ function Projects() {
               imgsrc={AnimePic}
               title="WatchIt"
               text="Searches for anime using the kitsu api"
-              activeGit="https://github.com/smrodriguez88/WatchIt"
-              activeLink="https://smrodriguez88.github.io/WatchIt/"
+              activeGit="https://github.com/condeemilio891/AnimeSearch"
+              activeLink="https://condeemilio891.github.io/AnimeSearch/"
             >
               dfadaf
             </MyCard>
