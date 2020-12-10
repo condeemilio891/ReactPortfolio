@@ -32,7 +32,7 @@ const MyCard = (props) => {
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
-                    <Card.Body><p>{props.text} </p></Card.Body>
+                    <Card.Body>{props.text}</Card.Body>
                   </Accordion.Collapse>
                 </Card>
              
