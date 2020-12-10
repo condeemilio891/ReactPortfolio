@@ -1,63 +1,105 @@
 import React, { Component } from "react";
 import MyCard from "../../components/Card/cardui";
-import Tab from "../../components/Tabs/tab";
 import TabNav from "../../components/Tabs/tabNav";
 import AnimePic from "../../assets/animepic.png";
-import Hero from "../../components/Hero";
 import Container from "../../components/Container";
-import {Accordian,Card} from "react-bootstrap"
-import axios from "axios"
-
+import "./Portfolio.css";
+import CalPic from "../../assets/calpic.jpg";
+import GRGPic from "../../assets/readMeGeneratorPic.png";
+import QuizPic from "../../assets/Untitled.png";
+import GamePic from "../../assets/Gamedexexibition.png";
+import EMS from "../../assets/EMS.jpg"
 
 function Projects() {
   return (
     <div id="bg">
-      
       <TabNav>
         <div id="bg" label="Project 1">
-          WatchIt <em>Search for your favorite Anime</em>!
           <Container id="bg">
-            <MyCard imgsrc={AnimePic} title="WatchIt" text="">
-            dfadaf
+            <MyCard
+              imgsrc={AnimePic}
+              title="WatchIt"
+              text="Searches for anime using the kitsu api"
+              activeGit="https://github.com/smrodriguez88/WatchIt"
+              activeLink="https://smrodriguez88.github.io/WatchIt/"
+            >
+              dfadaf
             </MyCard>
-          
           </Container>
         </div>
 
         <div label="Project 2">
-          After 'while, <em>Crocodile</em>!
           <Container>
-            <MyCard imgsrc={AnimePic}>
-              
-            </MyCard>
+            <MyCard
+              imgsrc={GamePic}
+              title="GameDex"
+              text="Allows users to keep track of their games"
+              activeGit="https://github.com/ParkerM2/GamesList"
+              activeLink="https://game-dex-ut.herokuapp.com/"
+            ></MyCard>
           </Container>
         </div>
 
         <div label="Project 3">
-          Nothing to see here, this tab is <em>extinct</em>!
           <Container>
-            <MyCard imgsrc={AnimePic}></MyCard>
+            <MyCard
+              imgsrc={EMS}
+              title="Employee Manangment System"
+              text=" View-Employees,Roles and departments
+              Add-Employees,Roles and departments
+              Update-Employee Data,Roles and Department Data
+              Delete-Employees, Roles and Departments
+              View Budget and Salaries
+              Look up employee by manager, role or departments.
+               This program uses inquirer." 
+              activeGit="https://github.com/condeemilio891/EmployeeManagementSystem"
+              activeLink="https://github.com/condeemilio891/EmployeeManagementSystem"
+           ></MyCard>
           </Container>
         </div>
 
         <div label="Project 4">
-          Nothing to see here, this tab is <em>extinct</em>!
           <Container>
-            <MyCard imgsrc={AnimePic}></MyCard>
+            <MyCard
+              imgsrc={GRGPic}
+              title="GoodReadMe Generator"
+              text="Table of Contents
+
+                        -[Description](#description)
+                        -[Installation](#installation)
+                        -[Usage](#usage)
+                        -[Test](#test)
+                        -[Credits](#credits)
+                              "
+                        activeGit="https://github.com/condeemilio891/good_READme_generator"
+                        activeLink="https://condeemilio891.github.io/good_READme_generator/"
+            ></MyCard>
           </Container>
         </div>
 
         <div label="Project 5">
-          Nothing to see here, this tab is <em>extinct</em>!
           <Container>
-            <MyCard imgsrc={AnimePic}></MyCard>
+            <MyCard
+              imgsrc={QuizPic}
+              title="NeuroQuiz"
+              text="A Challenging Biology Quiz"
+              activeGit="https://github.com/condeemilio891/quiz"
+              activeLink="https://condeemilio891.github.io/quiz/"
+            ></MyCard>
           </Container>
         </div>
 
         <div label="Project 6">
-          Nothing to see here, this tab is <em>extinct</em>!
           <Container>
-            <MyCard imgsrc={AnimePic}></MyCard>
+            <MyCard
+              imgsrc={CalPic}
+              title="Wayback Calendar"
+              text="A Calender that features a song or two for each decade"
+              activeGit="https://github.com/condeemilio891/Calendar"
+              activeLink="https://condeemilio891.github.io/Calendar/"
+            >
+          
+            </MyCard>
           </Container>
         </div>
       </TabNav>

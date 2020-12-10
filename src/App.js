@@ -4,7 +4,7 @@ import Projects from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
 import Search from "./pages/Search";
 import MyNavbar from "./components/Navbar/MyNavbar";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/footer.jsx";
 import Wrapper from "./components/Wrapper";
 
 function App() {

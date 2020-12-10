@@ -17,8 +17,9 @@ li{
 }
 p{
     font-weight: bold;
+    color: white;
 }
-#bg {
+#bg1 {
     background-image: url("../../assets/GalaxyBackground.jpg");
     height: 100vh;
     background-position: center;
@@ -45,5 +46,8 @@ float:left
 }
 #leftBackground{
     background-image:url("../../assets/SpacePic.jpg") ;
+}
+#skills{
+    color:black
 }
 
