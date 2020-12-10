@@ -12,12 +12,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import {faJs} from '@fortawesome/free-brands-svg-icons'
 import {faNode} from '@fortawesome/free-brands-svg-icons'
+import {faMapPin} from '@fortawesome/free-solid-svg-icons'
+import {faUserGraduate} from '@fortawesome/free-solid-svg-icons'
+import {faLanguage} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <Container id="bg">
+        <Container id="bg1">
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-left mb-2 mr-2">
@@ -26,7 +29,7 @@ const About = () => {
               <Card style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
                   <ListGroup.Item>
-                    <p>Skills</p>
+                    <p id= "skills">Skills</p>
                   <FontAwesomeIcon icon={faReact} />
                     React</ListGroup.Item>
                   <ListGroup.Item>
@@ -35,7 +38,11 @@ const About = () => {
                   <ListGroup.Item>
                   <FontAwesomeIcon icon={faNode} />
                     NodeJs</ListGroup.Item>
+                    <ListGroup.Item>
+                  <FontAwesomeIcon icon={faLanguage} />
+                    Spanish</ListGroup.Item>
                 </ListGroup>
+                  
               </Card>
             </Col>
             <Col xs={12} md={6}>
@@ -45,18 +52,25 @@ const About = () => {
                   <Row>
                     <Col id="leftBackground">
                       <ul>
-                        <li>Name</li>
-                        <li>Location</li>
-                        <li>Degree</li>
-                        <li>Email</li>
+                      
+                        <p>Hi! My name is Emilio. I have experience with behavior therapy and education. I have taught at most age levels.</p>
                       </ul>
                     </Col>
                     <Col id="rightBackground">
                       <ul id ="list-info">
-                        <li>Emilio Conde</li>
-                        <li>Austin, Texas</li>
-                        <li>BS</li>
-                        <li>Condeemilio891@gmail.com</li>
+                        <li>
+                        <FontAwesomeIcon icon={faReact} />
+                          Emilio Conde</li>
+                        
+                        <li>
+                        <FontAwesomeIcon icon={faMapPin} />
+                          Austin, Texas</li>
+                        <li>
+                        <FontAwesomeIcon icon={faUserGraduate} />
+                          BS</li>
+                        <li>
+                        <FontAwesomeIcon icon={faReact} />
+                        Condeemilio891@gmail</li>
                       </ul>
                     </Col>
                   </Row>

@@ -1,8 +1,9 @@
 body, html {
     height: 100%;
+    background-image: url(../../assets/Moon.jpg);
     }
 #bg {
-    background-image: url("../../assets/GalaxyBackground.jpg");
+    background-image: url("../../assets/Moon.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;

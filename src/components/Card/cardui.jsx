@@ -15,11 +15,11 @@ const MyCard = (props) => {
         <p className="card-text text-secondary">
           <ul class="list-group list-group-flush">
             <li class="list-group-item"></li>
-            <a href="#" className="btn btn-outline-dark">
+            <a href={props.activeGit} className="btn btn-outline-dark">
               Github
             </a>
             <li class="list-group-item"></li>
-            <a href="#" className="btn btn-outline-dark">
+            <a href={props.activeLink} className="btn btn-outline-dark">
               Link
             </a>
             <li class="list-group-item"></li>
