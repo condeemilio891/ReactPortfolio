@@ -9,12 +9,14 @@ import GRGPic from "../../assets/readMeGeneratorPic.png";
 import QuizPic from "../../assets/Untitled.png";
 import GamePic from "../../assets/Gamedexexibition.png";
 import EMS from "../../assets/EMS.jpg"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilm } from '@fortawesome/free-solid-svg-icons'
 function Projects() {
   return (
     <div id="bg">
       <TabNav>
-        <div id="bg" label="Project 1">
+        
+        <div id="bg" label="WatchIt">
           <Container id="bg">
             <MyCard
               imgsrc={AnimePic}
@@ -28,7 +30,7 @@ function Projects() {
           </Container>
         </div>
 
-        <div label="Project 2">
+        <div label="GameDex">
           <Container>
             <MyCard
               imgsrc={GamePic}
@@ -40,7 +42,7 @@ function Projects() {
           </Container>
         </div>
 
-        <div label="Project 3">
+        <div label="EMS">
           <Container>
             <MyCard
               imgsrc={EMS}
@@ -58,7 +60,7 @@ function Projects() {
           </Container>
         </div>
 
-        <div label="Project 4">
+        <div label="ReadME Gen">
           <Container>
             <MyCard
               imgsrc={GRGPic}
@@ -77,7 +79,7 @@ function Projects() {
           </Container>
         </div>
 
-        <div label="Project 5">
+        <div label="Quiz">
           <Container>
             <MyCard
               imgsrc={QuizPic}
@@ -89,7 +91,7 @@ function Projects() {
           </Container>
         </div>
 
-        <div label="Project 6">
+        <div label="Calendar">
           <Container>
             <MyCard
               imgsrc={CalPic}

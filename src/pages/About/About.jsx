@@ -15,6 +15,8 @@ import {faNode} from '@fortawesome/free-brands-svg-icons'
 import {faMapPin} from '@fortawesome/free-solid-svg-icons'
 import {faUserGraduate} from '@fortawesome/free-solid-svg-icons'
 import {faLanguage} from '@fortawesome/free-solid-svg-icons'
+import Satelight from "../../assets/satelight.png"
+import Nebula from "../../assets/Nebula.jpg"
 
 const About = () => {
   return (
@@ -42,8 +44,9 @@ const About = () => {
                   <FontAwesomeIcon icon={faLanguage} />
                     Spanish</ListGroup.Item>
                 </ListGroup>
-                  
+                
               </Card>
+              
             </Col>
             <Col xs={12} md={6}>
               <Jumbotron fluid id="EmilioInfo">
@@ -72,11 +75,18 @@ const About = () => {
                         <FontAwesomeIcon icon={faReact} />
                         Condeemilio891@gmail</li>
                       </ul>
+
+                      
                     </Col>
+                    
                   </Row>
+                  
                 </Container>
+                
               </Jumbotron>
+              
             </Col>
+            
           </Row>
         </Container>
       </div>
