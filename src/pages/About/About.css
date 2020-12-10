@@ -20,7 +20,7 @@ p{
     color: white;
 }
 #bg1 {
-    background-image: url("../../assets/GalaxyBackground.jpg");
+    background-image: url("../../assets/Nebula.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,5 +49,11 @@ float:left
 }
 #skills{
     color:black
+}
+
+#Satelight{
+    height: 500px;
+    width: 200px;
+    float:right
 }
 
