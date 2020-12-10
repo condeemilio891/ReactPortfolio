@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch  } from "react-router-dom";
 import Projects from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
 import Search from "./pages/Search";
@@ -13,9 +13,12 @@ function App() {
       <div>
         <MyNavbar />
         <Wrapper>
+          <Switch>
+            <Route exact path= "/ReactPortfolio" component={About}/>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Projects}/> 
+          </Switch>
           
         </Wrapper>
         <Footer />
