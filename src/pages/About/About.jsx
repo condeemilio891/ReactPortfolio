@@ -20,11 +20,16 @@ import Button from 'react-bootstrap/Button'
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import {faList} from '@fortawesome/free-solid-svg-icons'
 import planetPic from "../../assets/cartoonPlanet.jpg"
+import Footer from "../../components/Footer/Footer"
+import Video from "../../assets/videos/spaceVid.mp4"
 const About = () => {
   return (
     <div id="about">
       <div className="about">
         <Container id="bg1">
+        <video className='videoTag' autoPlay loop muted>
+    <source src={Video} type='video/mp4' />
+</video>
           <Row className="pt-0 pb-4 mb-2  align-items-top">
             <Col id= "col1" xs={12} md={6}>
               <Row className="justify-content-left mb-2 mr-2">
@@ -73,7 +78,13 @@ const About = () => {
                     <Col id="leftBackground">
                       <ul>
                       
-                        <p>Hi! My name is Emilio. I have experience with behavior therapy and education. I have taught at most age levels.</p>
+                        <p>Hi! My name is Emilio. 
+                        I am a Front-end web developer leveraging a background in psychology and education. using this experience to build a more intuitive user experience on the web. 
+                        I worked on a team of four to develop a single-page MERN app that helps local gamers track their gaming-history, library, and friends. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web. 
+
+                        I also have experience with behavior therapy and education. I have taught at most age levels.
+
+                        </p>
                       </ul>
                     </Col>
                     <Col id="rightBackground">
@@ -94,6 +105,15 @@ const About = () => {
                         <li>
                         <FontAwesomeIcon icon={faPhone} />
                         806-672-6544</li>
+                        <li>
+                        Bachelor's degree in neuroscience from St.Edwards University
+                        </li>
+                        <li>
+                          Coding bootcamp certificate program University of Texas
+                        </li>
+                        <li>
+                          Experience doing therapy for diverse age groups at Center for Autism
+                        </li>
                         
                       </ul>
 
@@ -101,16 +121,20 @@ const About = () => {
                     </Col>
                     
                   </Row>
-                  
+              
                 </Container>
-                <Image id="planetPic" src={planetPic}/>
+            
+               
+                {/* <Image id="planetPic"  src={planetPic}/> */}
               </Jumbotron>
              
             </Col>
             
           </Row>
         </Container>
+        <Footer />
       </div>
+      
     </div>
   );
 };
