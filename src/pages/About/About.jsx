@@ -19,21 +19,26 @@ import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button'
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import {faList} from '@fortawesome/free-solid-svg-icons'
-import planetPic from "../../assets/cartoonPlanet.jpg"
+import planetPic from "../../assets/GalaxyBackground.jpg"
 import Footer from "../../components/Footer/Footer"
 import Video from "../../assets/videos/spaceVid.mp4"
+import spaceInvader from "../../assets/spaceInvader.png"
+
 const About = () => {
+
+
   return (
     <div id="about">
       <div className="about">
-        <Container id="bg1">
+        
+        <Container id="bg1" className="mt-0">
         <video className='videoTag' autoPlay loop muted>
     <source src={Video} type='video/mp4' />
 </video>
           <Row className="pt-0 pb-4 mb-2  align-items-top">
             <Col id= "col1" xs={12} md={6}>
               <Row className="justify-content-left mb-2 mr-2">
-                <Image id="profile" src={Profile} roundedCircle />
+                <Image id="profile" className= "ml-3 mt-5"src={Profile} roundedCircle />
               </Row>
               <Card style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
@@ -70,7 +75,7 @@ const About = () => {
               
             </Col>
             <Col id="col2" xs={12} md={6}>
-              <Jumbotron fluid id="EmilioInfo">
+              <Jumbotron fluid id="EmilioInfo" className="mt-5">
               <h1>About</h1>
                 <Container>
                   
@@ -125,7 +130,8 @@ const About = () => {
                 </Container>
             
                
-                {/* <Image id="planetPic"  src={planetPic}/> */}
+                <Image id="planetPic" className="planetPic" src={spaceInvader}/>
+                
               </Jumbotron>
              
             </Col>
