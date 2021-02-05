@@ -4,7 +4,7 @@ import Projects from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
 import Search from "./pages/Search";
 import MyNavbar from "./components/Navbar/MyNavbar";
-import Footer from "./components/Footer/footer.jsx";
+import Footer from "./components/Footer/Footer.js";
 import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/portfolio" component={Projects}/> 
           
         </Wrapper>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

@@ -19,14 +19,14 @@ import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button'
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import {faList} from '@fortawesome/free-solid-svg-icons'
-
+import planetPic from "../../assets/cartoonPlanet.jpg"
 const About = () => {
   return (
     <div id="about">
       <div className="about">
         <Container id="bg1">
-          <Row className="pt-3 pb-5 align-items-center">
-            <Col xs={12} md={6}>
+          <Row className="pt-0 pb-4 mb-2  align-items-top">
+            <Col id= "col1" xs={12} md={6}>
               <Row className="justify-content-left mb-2 mr-2">
                 <Image id="profile" src={Profile} roundedCircle />
               </Row>
@@ -64,10 +64,11 @@ const About = () => {
               </Card>
               
             </Col>
-            <Col xs={12} md={6}>
+            <Col id="col2" xs={12} md={6}>
               <Jumbotron fluid id="EmilioInfo">
+              <h1>About</h1>
                 <Container>
-                  <h1>About</h1>
+                  
                   <Row>
                     <Col id="leftBackground">
                       <ul>
@@ -102,9 +103,9 @@ const About = () => {
                   </Row>
                   
                 </Container>
-                
+                <Image id="planetPic" src={planetPic}/>
               </Jumbotron>
-              
+             
             </Col>
             
           </Row>
