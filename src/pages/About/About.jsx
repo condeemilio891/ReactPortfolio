@@ -23,10 +23,25 @@ import planetPic from "../../assets/GalaxyBackground.jpg"
 import Footer from "../../components/Footer/Footer"
 import Video from "../../assets/videos/spaceVid.mp4"
 import spaceInvader from "../../assets/spaceInvader.png"
+import styled, {keyframes} from "styled-components"
+import {bounce} from "react-animation"
+import { animations } from 'react-animation'
+import { easings } from 'react-animation'
 
 const About = () => {
 
 
+
+  const style2 = {
+    animation: `pop-in ${easings.easeOutExpo} 5000ms forwards`
+  };
+
+  const style= {
+    animation:{
+      animation: `pop-in ${easings.easeOutExpo} 50000ms forwards`
+    }
+    
+  }
   return (
     <div id="about">
       <div className="about">
@@ -37,9 +52,11 @@ const About = () => {
 </video>
           <Row className="pt-0 pb-4 mb-2  align-items-top">
             <Col id= "col1" xs={12} md={6}>
+
               <Row className="justify-content-left mb-2 mr-2">
-                <Image id="profile" className= "ml-3 mt-5"src={Profile} roundedCircle />
+            <Image style= {style2} id="profile" className= "ml-3 mt-5"src={Profile} roundedCircle />
               </Row>
+              
               <Card style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
                   <ListGroup.Item>
@@ -73,8 +90,10 @@ const About = () => {
                 
               </Card>
               
+              
             </Col>
             <Col id="col2" xs={12} md={6}>
+            <Image id="planetPic" className="planetPic" src={spaceInvader}/>
               <Jumbotron fluid id="EmilioInfo" className="mt-5">
               <h1>About</h1>
                 <Container>
@@ -130,7 +149,7 @@ const About = () => {
                 </Container>
             
                
-                <Image id="planetPic" className="planetPic" src={spaceInvader}/>
+              
                 
               </Jumbotron>
              

@@ -13,12 +13,30 @@ width: 500px;
 }
 
 #planetPic{
+    position: absolute;
     height: 175px;
     align-items: center;
+    margin-left: 300px;
+   width: 275px;
+ top: 100px; 
+ left: 30px;
+ animation: move 10s ease infinite;
+   
+
 }
-#planetPic:hover{
-    transform: translate(350px,0)
+@keyframes move{
+    50%{
+        top:1px;
+        left:100px
+    }
 }
+
+
+/* #planetPic:hover{
+    transform:rotateX(150deg)
+   
+   
+} */
 
 body, html {
     margin:0 0 0 0;
