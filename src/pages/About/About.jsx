@@ -59,28 +59,28 @@ const About = () => {
               
               <Card style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
-                  <ListGroup.Item>
+                  <ListGroup.Item id= "react">
                     <p id= "skills">Skills</p>
-                  <FontAwesomeIcon icon={faReact} />
+                  <FontAwesomeIcon id= "react"icon={faReact} />
                     React</ListGroup.Item>
-                  <ListGroup.Item>
-                  <FontAwesomeIcon icon={faJs} />
+                  <ListGroup.Item id="javascript">
+                  <FontAwesomeIcon id="javascript" icon={faJs} />
                     Javascript</ListGroup.Item>
-                  <ListGroup.Item>
-                  <FontAwesomeIcon icon={faNode} />
+                  <ListGroup.Item id="node">
+                  <FontAwesomeIcon id= 'node'icon={faNode} />
                     NodeJs</ListGroup.Item>
-                    <ListGroup.Item>
-                  <FontAwesomeIcon icon={faLanguage} />
+                    <ListGroup.Item id="spanish">
+                  <FontAwesomeIcon  id="spanish"icon={faLanguage} />
                     Spanish</ListGroup.Item>
 
-                    <ListGroup.Item>
-                  <FontAwesomeIcon icon={faList} />
+                    <ListGroup.Item id="resume">
+                  <FontAwesomeIcon id="resume" icon={faList} />
                     <div>
                     <Button href="https://docs.google.com/document/d/1Rbz5gWwFHqjOh78-TLTi_wcWiNxMNhJJLNRJkclJYGI/edit?usp=sharing" variant="link">Resume</Button>
                     </div></ListGroup.Item>
 
-                    <ListGroup.Item>
-                    <FontAwesomeIcon icon={faGithubAlt} />
+                    <ListGroup.Item id="github">
+                    <FontAwesomeIcon  id="github" icon={faGithubAlt} />
                       <div>
                       <Button href="https://github.com/condeemilio891" variant="link">GitHub</Button>
                       </div>
@@ -93,6 +93,9 @@ const About = () => {
               
             </Col>
             <Col id="col2" xs={12} md={6}>
+            <div class="earth">
+  <div></div>
+</div>
             <Image id="planetPic" className="planetPic" src={spaceInvader}/>
               <Jumbotron fluid id="EmilioInfo" className="mt-5">
               <h1>About</h1>
@@ -152,10 +155,11 @@ const About = () => {
               
                 
               </Jumbotron>
-             
+   
             </Col>
             
           </Row>
+          
         </Container>
         <Footer />
       </div>
