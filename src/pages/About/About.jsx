@@ -45,8 +45,9 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        
+               
         <Container id="bg1" className="mt-0">
+          
         <video className='videoTag' autoPlay loop muted>
     <source src={Video} type='video/mp4' />
 </video>
@@ -57,7 +58,7 @@ const About = () => {
             <Image style= {style2} id="profile" className= "ml-3 mt-5"src={Profile} roundedCircle />
               </Row>
               
-              <Card style={{ width: "18rem" }}>
+              <Card id= "card" style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
                   <ListGroup.Item id= "react">
                     <p id= "skills">Skills</p>
@@ -93,9 +94,27 @@ const About = () => {
               
             </Col>
             <Col id="col2" xs={12} md={6}>
+              {/* planets */}
+              <div class="mercury">
+  <div></div>
+</div>
+<div class="venus">
+  <div></div>
+</div>
             <div class="earth">
   <div></div>
 </div>
+<div class="mars">
+  <div></div>
+</div>
+<div class="jupiter">
+  <div></div>
+</div>
+<div class="sun">
+  <div></div>
+</div>
+
+
             <Image id="planetPic" className="planetPic" src={spaceInvader}/>
               <Jumbotron fluid id="EmilioInfo" className="mt-5">
               <h1>About</h1>
@@ -105,8 +124,8 @@ const About = () => {
                     <Col id="leftBackground">
                       <ul>
                       
-                        <p>Hi! My name is Emilio. 
-                        I am a Front-end web developer leveraging a background in psychology and education. using this experience to build a more intuitive user experience on the web. 
+                        <p id="brandStatement">Hi! My name is Emilio. 
+                        I am a Front-end web developer leveraging a background in psychology and education using this experience to build a more intuitive user experience on the web. 
                         I worked on a team of four to develop a single-page MERN app that helps local gamers track their gaming-history, library, and friends. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web. 
 
                         I also have experience with behavior therapy and education. I have taught at most age levels.
@@ -116,29 +135,29 @@ const About = () => {
                     </Col>
                     <Col id="rightBackground">
                       <ul id ="list-info">
-                        <li>
+                        <li id= "nameInfo">
                        
                           Emilio Conde</li>
                         
-                        <li>
+                        <li id="cityInfo">
                         <FontAwesomeIcon icon={faMapPin} />
                           Austin, Texas</li>
-                        <li>
+                        <li id="collegeInfo">
                         <FontAwesomeIcon icon={faUserGraduate} />
                           BS</li>
-                        <li>
+                        <li id="emailInfo">
                         <FontAwesomeIcon icon={faReact} />
                         Condeemilio891@gmail</li>
-                        <li>
+                        <li id="phoneInfo">
                         <FontAwesomeIcon icon={faPhone} />
                         806-672-6544</li>
-                        <li>
+                        <li id="moreInfo" >
                         Bachelor's degree in neuroscience from St.Edwards University
                         </li>
-                        <li>
+                        <li id="moreInfo">
                           Coding bootcamp certificate program University of Texas
                         </li>
-                        <li>
+                        <li id="moreInfo">
                           Experience doing therapy for diverse age groups at Center for Autism
                         </li>
                         
@@ -157,7 +176,7 @@ const About = () => {
               </Jumbotron>
    
             </Col>
-            
+          
           </Row>
           
         </Container>

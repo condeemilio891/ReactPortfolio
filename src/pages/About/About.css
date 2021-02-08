@@ -78,8 +78,12 @@ video {
 #profile{
 height: 200px;
 width: 200px;
-float:left
+float:left;
+z-index: 1;
 
+}
+#card{
+    z-index:1;
 }
 
 #EmilioInfo{
@@ -97,10 +101,42 @@ float:left
 
 }
 #leftBackground{
-    background-image:url("../../assets/SpacePic.jpg") ;
+    background-image:url("../../assets/metalBackground.jpg") ;
 }
 #skills{
     color:black
+}
+#brandStatement{
+    color:red
+}
+#brandStatement:hover{
+    
+    transform:scale(1.1);
+    transform: skew(-5deg);
+}
+#nameInfo:hover{
+    transform:scale(1.1);
+    color:yellow;
+
+}
+#cityInfo:hover{
+    transform:scale(1.1);
+    color:red;
+}
+#collegeInfo:hover{
+    transform:scale(1.1);
+    color:green;
+}
+#emailInfo:hover{
+    transform:scale(1.1);
+    color:blue
+}
+#phoneInfo:hover{
+    transform:scale(1.1);
+    color:purple
+}
+#moreInfo:hover{
+    transform:skew(10deg)
 }
 
 #Satelight{
@@ -133,7 +169,8 @@ float:left
 
 }
 #spanish:hover{
-    transform:scale(1.1)
+    transform:scale(1.1);
+    color:red;
 }
 
 #github:hover{
@@ -143,14 +180,14 @@ float:left
     transform:scale(1.1)
 }
 .earth {
-    width: 200px;
-    height: 200px;
+    width: 75px;
+    height: 75px;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
+    left:0;
     right: 0;
-    margin: auto auto auto 480px;
+    margin: auto auto auto 460px;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
@@ -171,7 +208,7 @@ float:left
     width: 200%;
     height: 100%;
     animation: spin 30s linear infinite;
-    background: url(https://i.stack.imgur.com/3SLqF.jpg);
+    background: url("../../assets/earthMap.jpg");
     /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
     background-size: cover;
 }
@@ -180,4 +217,184 @@ float:left
     to {
         transform: translateX(-50%);
     }
+}
+.earth:hover{
+    transform:scale(2)
+}
+
+.mars{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto auto 540px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.mars:after {
+    position: absolute;
+    content: "";
+    top: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mars > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear infinite;
+    background: url("../../assets/marsMap.jpg");
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+}
+.mars:hover{
+    transform:scale(2)
+}
+
+.mercury{
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto auto 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.mercury:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+   
+}
+
+.mercury > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear infinite;
+    background: url("../../assets/mercuryMap.jpg");
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+}
+.mercury:hover{
+    transform:scale(2)
+}
+
+.venus{
+    width:75px;
+    height:75px;
+    position:fixed;
+    top: 0; 
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto auto auto 375px;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.venus:after{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.venus>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/venusMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
+}
+.venus:hover{
+    transform:scale(2)
+}
+.jupiter{
+    width:350px;
+    height:350px;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto 900px auto 1000px;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.jupiter:after{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.jupiter>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/jupiterMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
+}
+.sun{
+    width:350px;
+    height:350px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:100;
+    margin: auto 900px 400px auto;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.sun:after{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.sun>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/sunMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
 }
