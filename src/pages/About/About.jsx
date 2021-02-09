@@ -27,6 +27,9 @@ import styled, {keyframes} from "styled-components"
 import {bounce} from "react-animation"
 import { animations } from 'react-animation'
 import { easings } from 'react-animation'
+import ReactAudioPlayer from 'react-audio-player';
+import FTL from "../../assets/music/02_fasterthanlight_bonus_featuringmiastegmar.mp3"
+import Accordion from 'react-bootstrap/Accordion'
 
 const About = () => {
 
@@ -47,10 +50,57 @@ const About = () => {
       <div className="about">
                
         <Container id="bg1" className="mt-0">
-          
         <video className='videoTag' autoPlay loop muted>
     <source src={Video} type='video/mp4' />
 </video>
+
+
+<ReactAudioPlayer
+  src={FTL}
+  controls
+/>
+
+<Accordion defaultActiveKey="0">
+  <Card id="lyricsAccordian">
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="0">
+        Faster Than Light by Andreas Waldetoft lyrics eaturing Mia Stegmar
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="0">
+      <Card.Body>Stars in the sky<br/>
+Floating in darkness<br/>
+Soon I will fly<br/>
+Faster than Light<br/>
+
+See through my eyes<br/>
+Time standing down<br/>
+Onward to space<br/>
+Engines Stand By<br/>
+
+Senseless of time<br/>
+Nebula’s blurring<br/>
+Lights flashing by<br/>
+Worlds Unknown<br/>
+
+Imminent approach<br/>
+Sensors reacting<br/>
+Anon I’m through<br/>
+Faster Than Light<br/>
+
+Suddenly stop<br/>
+Readings come in<br/>
+Nothing in sight<br/>
+Sun glowing bright<br/>
+
+Stars in my view<br/>
+Floating in darkness<br/>
+Soon I’ll go through<br/>
+Faster than Light﻿<br/></Card.Body>
+    </Accordion.Collapse>
+  </Card>
+ 
+</Accordion>
           <Row className="pt-0 pb-4 mb-2  align-items-top">
             <Col id= "col1" xs={12} md={6}>
 
