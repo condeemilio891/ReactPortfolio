@@ -6,11 +6,17 @@ import "./Radio.css"
 
 function Radio() {
   const [songs] = useState([
-    {
-      title: "Faster Than Light",
-      artist: "Andreas Waldetoft (feat. Mia Stegmar)",
+    { title:"Luminescence (Stellaris)",
+      artist: "Andres Waldorf",
       img_src:"/images/Stellaris.jpg",
-      src: process.env.PUBLIC_URL +"/music/FTL.mp3"
+      src: process.env.PUBLIC_URL+"/music/luminescence.mp3"
+      
+    },
+    {
+      title:" Space Jam theme",
+      artist:"Quad City DJ's",
+      img_src:"/images/spacejamcover.jpg",
+      src: process.env.PUBLIC_URL +"/music/SpaceJamThemeSong.mp3"
     },
     {
       title: "Terran 3 (Starcraft)",
@@ -18,6 +24,14 @@ function Radio() {
       img_src: "/images/starcraft-original-box.webp",
       src: process.env.PUBLIC_URL+ "/music/Terran3Starcraft.mp3"
     },
+    {
+      title: "Faster Than Light",
+      artist: "Andreas Waldetoft (feat. Mia Stegmar)",
+      img_src:"/images/Stellaris.jpg",
+      src: process.env.PUBLIC_URL +"/music/FTL.mp3"
+    },
+   
+
  
   ]);
 
