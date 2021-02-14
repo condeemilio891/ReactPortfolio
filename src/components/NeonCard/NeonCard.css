@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.neonContainer{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    left:20%;
+    bottom: 37rem;
+
+
+}
+
+.neonContainer .neonBox{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color:#fff;
+    background:#111;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+
+.neonContainer .neonBox:hover{
+    transform:translateY(-20px);
+}
+
+
+.neonContainer .neonBox::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+}
+
+.neonContainer .neonBox::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    filter: blur(30px);
+}
+
+.neonContainer .neonBox:nth-child(2):before,
+.neonContainer .neonBox:nth-child(2):after
+{
+    background: linear-gradient(315deg,#03a9f4,#ff0058)
+
+}
+
+.neonContainer .neonBox:nth-child(3):before,
+.neonContainer .neonBox:nth-child(3):after
+{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+
+}
+
+.neonContainer .neonBox span{
+    position: absolute;
+    top:6px;
+    left:6px;
+    right:6px;
+    bottom:6px;
+    background:rgba(0,0,0,0.6);
+    z-index: 2;
+
+}
+
+
+.neonContainer .neonBox span::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+
+}
+
+.neonContainer .neonBox .neonContent{
+    position: relative;
+    z-index:10;
+    padding: 20px 40px;
+    justify-content:center;
+    align-items: center;
+}
+
+.neonContainer .neonBox .neonContent h2{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom:10px;
+}
+
+.neonContainer .neonBox .neonContent p{
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom:10px;
+    line-height: 1.4em;
+}
+
+.neonContainer .neonBox .neonContent a{
+    display: inline-block;
+    font-size: 1.1em;
+    color:#111;
+    background:#fff;
+    padding:10px;
+    text-decoration:none;
+    font-weight:700;
+
+}

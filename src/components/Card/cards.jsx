@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 
+
 class MyCards extends Component{
     render() {
         return (
@@ -15,7 +16,6 @@ class MyCards extends Component{
                     <div className="col-md-4">
                         <MyCard imgsrc={Yoda} title="project1">      
                         </MyCard>
-                       
                     </div>
                 </div>
             </div>

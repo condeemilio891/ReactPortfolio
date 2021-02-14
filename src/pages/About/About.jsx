@@ -132,7 +132,7 @@ const About = () => {
 
               <Image id="planetPic" className="planetPic" src={spaceInvader} />
               <Jumbotron fluid id="EmilioInfo" className="mt-5">
-                <h1>About</h1>
+                <h1 id="aboutSection">About</h1>
                 <Container>
                   <Row>
                     <Col id="leftBackground">
@@ -196,7 +196,7 @@ const About = () => {
            
           </Row>
         </Container>
-        <Footer />
+       
       </div>
     </div>
   );
