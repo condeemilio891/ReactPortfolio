@@ -141,6 +141,12 @@ function Projects() {
             >
           
             </MyCard>
+            <NeonCard
+              cardTitleLeft= "Wayback Calendar"
+              cardTextLeft=" Experience songs from each generation while planning your day!"
+              cardTextRight= "The main focus for the project is the ability to manipulate the dom, and create on click events in order to do so"
+    
+            />
             
           </Container>
         </div>
