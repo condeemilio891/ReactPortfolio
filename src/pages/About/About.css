@@ -85,7 +85,11 @@ z-index: 1;
 #card{
     z-index:1;
 }
-
+#aboutSection{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
 #EmilioInfo{
    background-image: url("../../assets/GalaxyBackground.jpg");
    margin-top: 0px;
@@ -186,7 +190,7 @@ z-index: 1;
     height: 75px;
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 30rem;
     left:0;
     right: 0;
     margin: auto auto auto 460px;
@@ -229,7 +233,7 @@ z-index: 1;
     height: 60px;
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 30rem;
     left: 0;
     right: 0;
     margin: auto auto auto 540px;
@@ -266,9 +270,9 @@ z-index: 1;
     height: 55px;
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 30rem;
     left: 0;
-    right: 0;
+    right: 3rem;
     margin: auto auto auto 300px;
     overflow: hidden;
     border-radius: 50%;
@@ -303,7 +307,7 @@ z-index: 1;
     height:75px;
     position:fixed;
     top: 0; 
-    bottom:0;
+    bottom:30rem;
     left:0;
     right:0;
     margin:auto auto auto 375px;

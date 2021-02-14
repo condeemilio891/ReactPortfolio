@@ -20,7 +20,7 @@ function App() {
           <Route exact path='/test' component={Test}/>
           
         </Wrapper>
-        
+        <Footer />
       </div>
       
     </Router>

@@ -1,5 +1,5 @@
 import React from "react";
-import Accordion from "react-bootstrap/Accordion";
+
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
@@ -23,21 +23,7 @@ const MyCard = (props) => {
               Link
             </a>
             <li class="list-group-item"></li>
-            <div>
-              <Accordion defaultActiveKey="0">
-                <Card style={{ width: '18rem' }}>
-                  <Card.Header>
-                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                      Learn More
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey="0">
-                    <Card.Body>{props.text}</Card.Body>
-                  </Accordion.Collapse>
-                </Card>
-             
-              </Accordion>
-            </div>
+          
      
          
           </ul>

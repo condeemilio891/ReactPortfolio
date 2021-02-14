@@ -1,11 +1,11 @@
 import React from "react"
-import Radio from "../components/Radio/Radio"
+import NeonCard from "../components/NeonCard/NeonCard"
 
 
 function Test() {
     return (
       <div id="test">
-   <Radio/>
+   <NeonCard/>
       </div>
     );
   }
