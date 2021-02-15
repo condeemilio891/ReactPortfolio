@@ -9,7 +9,11 @@
     margin-top: 200px;
   }
   
- 
+  @media screen and (max-width: 900px){
+    .footer-container{
+      display: none;
+    }
+  }
   
 
   
