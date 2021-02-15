@@ -19,6 +19,20 @@
 
 }
 
+@media screen and (max-width: 900px){
+    .neonContainer{
+        position:absolute;
+        display: flex;
+        bottom:0;
+        top:45rem;
+        right:.05rem;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+
+    }
+}
+
 .neonContainer .neonBox{
     position: relative;
     width: 320px;
