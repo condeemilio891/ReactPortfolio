@@ -32,9 +32,11 @@ function Projects() {
                  cardTextLeft="Allows users to create a password and a user page. Assigns a random pokemon for each user. 
                  Allows the user to search and save games.
                  "
-                 cardTextRight="I created an navbar and the appropriate logic for its routing. I used the pokemon api in 
-                 order to assign a pokemon when a new user is made. 
-                 Also worked on Front end. Helped with express authenticator."
+                 cardTextRight="I created the navbar and footer and the appropriate logic for its routing. 
+                 I used the pokemon api in 
+                 order to assign a pokemon when a new user is created. 
+                 I used bootstrap and jquery to help create the front end.
+                  I Helped with express authenticator, an NPM package that helps create and store usernames and passwords."
                 />
 
 
@@ -56,12 +58,11 @@ function Projects() {
           <NeonCard
             cardTitleLeft="Watch It"
             cardTextLeft="A search engine that uses the 
-            Kistu API in order to find anime titles. The results from the search give a desciption of the anime 
-            the user clicks on and a list websites the user clicks on. Additionaly the user is told
-            were they can watch the anime searched"
-            cardTextRight="I used Ajax to communicate with the Kitsu Api. 
-            After Recieving and storing information using local storage and then parsed using JSON in order 
-            to append the data following an on click event."
+            Kistu API in order to find anime titles. The results from the search give a desciption of the anime. 
+            Additionaly the user is told
+            were they can watch the anime."
+            cardTextRight="I used Ajax to communicate with the Kitsu API. 
+            After recieving the information it is stored into an array and then appended on the correct html elements following an on click event."
           />
         </div>
 
@@ -77,10 +78,10 @@ function Projects() {
            ></MyCard>
             <NeonCard
               cardTitleLeft="Employee Manangment System"
-              cardTextLeft="Allows users to view,add,update and delete employees 
-              as well as view them by manager,role or department. Able to view the budget.
+              cardTextLeft="Allows users to view, add, update and delete employees 
+              as well as view them by manager, role or department. Able to view the budget.
               " 
-              cardTextRight= "I used node.js and SQL queries like SELECT, INSERT, UPDATE, DELETE, ORDER BY and WHERE  in order to achieve this task. I also used inquirer to prompt the user to view,add, update, delete etc."
+              cardTextRight= "Using Inquirer to create a CLM the user is prompted to manage their employees. After the user inputs the data, I used node.js and SQL queries like SELECT, INSERT, UPDATE, DELETE, ORDER BY and WHERE  in order communicate with the backend and update the data."
     
             />
           </Container>
@@ -90,22 +91,22 @@ function Projects() {
           <Container>
             <MyCard
               imgsrc={GRGPic}
-              title="GoodReadMe Generator"
+              title="GoodReadme Generator"
             
                         activeGit="https://github.com/condeemilio891/good_READme_generator"
                         activeLink="https://condeemilio891.github.io/good_READme_generator/"
             ></MyCard>
               <NeonCard
                 cardTitleLeft="Good ReadMe Generator"
-                 cardTextLeft="Generates a readMe with the following parameters 
-                 Table of Contents
-                           -[Description](#description)
-                           -[Installation](#installation)
-                           -[Usage](#usage)
-                           -[Test](#test)
-                           -[Credits](#credits)
+                 cardTextLeft="Generates a professional Readme containing the following parameters 
+               
+                           -[Description](#Readme)
+                           [Installation](#node.js)
+                           [Usage](#inquirer CLM)
+                           [Test](#no test req)
+                           [Credits](#Condeemilio)
                                  "
-                 cardTextRight="I Used inquirer and node in order to prompt the user for the content desired for the readMe. I then used a promise to pass the properties given by the user into a write file function which then generated the readMe"
+                 cardTextRight="I used Inquirer and node.js to create a command line interface that prompts the user for the content of the Readme. The properties are passed and used in a write file function which then generated the Readme"
                 />
           </Container>
         </div>
@@ -144,7 +145,7 @@ function Projects() {
             <NeonCard
               cardTitleLeft= "Wayback Calendar"
               cardTextLeft=" Experience songs from each generation while planning your day!"
-              cardTextRight= "The main focus for the project is the ability to manipulate the dom, and create on click events in order to do so"
+              cardTextRight= "The main focus for the project is the ability to manipulate the dom using the jquery framework and create on click events in order to do so"
     
             />
             
