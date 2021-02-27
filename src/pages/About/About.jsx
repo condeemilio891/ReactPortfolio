@@ -17,19 +17,19 @@ import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import Button from "react-bootstrap/Button";
+import { DiJavascript } from "react-icons/di";
+import { DiJqueryLogo } from "react-icons/di";
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt} from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap} from "@fortawesome/free-brands-svg-icons";
 import { faList } from "@fortawesome/free-solid-svg-icons";
-import planetPic from "../../assets/GalaxyBackground.jpg";
-import Footer from "../../components/Footer/Footer";
 import Video from "../../assets/videos/spaceVid.mp4";
 import spaceInvader from "../../assets/spaceInvader.png";
-import styled, { keyframes } from "styled-components";
-import { bounce } from "react-animation";
-import { animations } from "react-animation";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { easings } from "react-animation";
-import ReactAudioPlayer from "react-audio-player";
-
-import Accordion from "react-bootstrap/Accordion";
+import { GrMysql } from "react-icons/gr";
+import { SiMongodb } from "react-icons/si";
 import Radio from "../../components/Radio/Radio";
 const About = () => {
   const style2 = {
@@ -63,28 +63,59 @@ const About = () => {
 
               <Card id="card" style={{ width: "18rem" }}>
                 <ListGroup variant="flush">
-                  <ListGroup.Item id="react">
+                  <ListGroup.Item className="skillsText" id="react">
                     <p id="skills">Skills</p>
-                    <FontAwesomeIcon id="react" icon={faReact} />
-                    React
+                    
+                    <FontAwesomeIcon className="skillsIcons" id="react" icon={faHtml5} />
+                    Html
                   </ListGroup.Item>
-                  <ListGroup.Item id="javascript">
-                    <FontAwesomeIcon id="javascript" icon={faJs} />
+                  <ListGroup.Item className="skillsText" id="javascript">
+                    <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faCss3Alt} />
+                    CSS
+                  </ListGroup.Item>
+                  <ListGroup.Item className="skillsText" id="javascript">
+                    <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faBootstrap} />
+                    Bootstrap
+                  </ListGroup.Item>
+                  <ListGroup.Item className="skillsText" id="javascript">
+                    <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faJs} />
                     Javascript
                   </ListGroup.Item>
-                  <ListGroup.Item id="node">
-                    <FontAwesomeIcon id="node" icon={faNode} />
+                  <ListGroup.Item className="skillsText" id="javascript">
+                    <DiJqueryLogo className= "skillsText" />
+                    Jquery
+                  </ListGroup.Item>
+                  
+                  <ListGroup.Item className="skillsText" id="react">
+                    <FontAwesomeIcon className="skillsIcons" id="react" icon={faReact} />
+                    React
+                  </ListGroup.Item>
+                  <ListGroup.Item className="skillsText">
+                  <DiJavascript className="skillsIcons"/>
+                    Express
+
+                  </ListGroup.Item>
+                  <ListGroup.Item id="node" className="skillsText">
+                    <FontAwesomeIcon className="skillsIcons" id="node" icon={faNode} />
                     NodeJs
                   </ListGroup.Item>
-                  <ListGroup.Item id="spanish">
-                    <FontAwesomeIcon id="spanish" icon={faLanguage} />
+                  <ListGroup.Item id="node" className="skillsText">
+                    <GrMysql className="skillsIcons" />
+                    MySQL
+                  </ListGroup.Item >
+                  <ListGroup.Item id="node" className="skillsText">
+                    <SiMongodb  className="skillsIcons" />
+                    Mongo
+                  </ListGroup.Item>
+                  <ListGroup.Item id="spanish" className="skillsText">
+                    <FontAwesomeIcon className="skillsIcons" id="spanish" icon={faLanguage} />
                     Spanish
                   </ListGroup.Item>
-
+                  
                   <ListGroup.Item id="resume">
-                    <FontAwesomeIcon id="resume" icon={faList} />
+                    <FontAwesomeIcon id="resumeIcon" icon={faList} />
                     <div>
-                      <Button
+                      <Button id="resumeButton"
                         href="https://docs.google.com/document/d/1Rbz5gWwFHqjOh78-TLTi_wcWiNxMNhJJLNRJkclJYGI/edit?usp=sharing"
                         variant="link"
                       >
@@ -92,15 +123,27 @@ const About = () => {
                       </Button>
                     </div>
                   </ListGroup.Item>
-
+                   
                   <ListGroup.Item id="github">
-                    <FontAwesomeIcon id="github" icon={faGithubAlt} />
+                    <FontAwesomeIcon id="githubIcon" icon={faGithubAlt} />
                     <div>
-                      <Button
+                      <Button id="githubButton"
                         href="https://github.com/condeemilio891"
                         variant="link"
                       >
                         GitHub
+                      </Button>
+                    </div>
+                  </ListGroup.Item>
+               
+                  <ListGroup.Item id="linkedIn">
+                    <FontAwesomeIcon id="linkedInIcon" icon={faLinkedin} />
+                    <div>
+                      <Button id= "linkedInButton"
+                        href='https://www.linkedin.com/in/emilio-j-conde-ab2101195/'
+                        variant="link"
+                      >
+                        LinkedIn
                       </Button>
                     </div>
                   </ListGroup.Item>

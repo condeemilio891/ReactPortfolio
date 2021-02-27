@@ -105,7 +105,7 @@ z-index: 1;
 
 }
 #leftBackground{
-    background-image:url("../../assets/metalBackground.jpg") ;
+    background-color:black;
 }
 #skills{
     color:black;
@@ -160,7 +160,7 @@ z-index: 1;
    margin:0 0 0 0;
 
 }
-#react:hover{ 
+/* #react:hover{ 
     color:lightblue;
     transform: scale(1.1)
 }
@@ -177,13 +177,67 @@ z-index: 1;
 #spanish:hover{
     transform:scale(1.1);
     color:red;
+} */
+
+.skillsText:hover{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    transform: scale(1.1);
+}
+.skillsIcons:hover{
+    transform:rotate(180deg);
+    color:red;
+}
+
+#github{
+    display: flex;
+    flex-direction: row;
 }
 
 #github:hover{
     transform:scale(1.1)
 }
+#githubButton{
+    margin-top: 10%;
+    padding-left: 0%;
+    text-decoration: none;
+}
+#githubIcon{
+    margin-top: 5%;
+    height: 2rem;
+    width: 2rem;
+}
+#resume{
+    display: flex;
+    flex-direction: row;
+}
 #resume:hover{
     transform:scale(1.1)
+}
+#resumeButton{
+    margin-top: 10%;
+    padding-left: 0%;
+}
+#resumeIcon{
+    margin-top: 5%;
+    height: 2rem;
+    width: 2rem;
+}
+
+#linkedIn{
+    display: flex;
+    flex-direction: row;
+}
+#linkedIn:hover{
+    transform:scale(1.1)
+}
+#linkedInButton{
+ margin-top: 10%;
+padding-left: 0%;
+}
+#linkedInIcon{
+    margin-top: 5%;
+    height: 2rem;
+    width: 2rem;
 }
 .earth {
     width: 75px;
