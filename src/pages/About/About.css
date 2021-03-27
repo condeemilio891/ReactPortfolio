@@ -244,8 +244,8 @@ padding-left: 0%;
     height: 75px;
     position: fixed;
     top: 0;
-    bottom: 30rem;
-    left:0;
+    bottom: 12.5rem;
+    left:42.5rem;
     right: 0;
     margin: auto auto auto 460px;
     overflow: hidden;
@@ -254,7 +254,7 @@ padding-left: 0%;
 }
 
 .earth:after {
-    position: absolute;
+    position: static;
     content: "";
     top: 0;
     bottom: 0;
@@ -287,8 +287,8 @@ padding-left: 0%;
     height: 60px;
     position: fixed;
     top: 0;
-    bottom: 30rem;
-    left: 0;
+    bottom: 3rem;
+    left: 38rem;
     right: 0;
     margin: auto auto auto 540px;
     overflow: hidden;
@@ -296,9 +296,9 @@ padding-left: 0%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
 }
 .mars:after {
-    position: absolute;
+    position: static;
     content: "";
-    top: 100;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -324,20 +324,20 @@ padding-left: 0%;
     height: 55px;
     position: fixed;
     top: 0;
-    bottom: 30rem;
-    left: 0;
-    right: 3rem;
+    bottom: 33rem;
+    left: 53.5rem;
+    right: 0;
     margin: auto auto auto 300px;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
 }
 .mercury:after {
-    position: absolute;
+    position: static;
     content: "";
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 50%;
     right: 0;
     box-shadow: -20px -20px 50px 2px #000 inset;
     border-radius: 50%;
@@ -361,8 +361,8 @@ padding-left: 0%;
     height:75px;
     position:fixed;
     top: 0; 
-    bottom:30rem;
-    left:0;
+    bottom:23rem;
+    left:48rem;
     right:0;
     margin:auto auto auto 375px;
     overflow:hidden;
@@ -370,7 +370,7 @@ padding-left: 0%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
 }
 .venus:after{
-    position:absolute;
+    position:static;
     content:"";
     top:0;
     right:0;
@@ -396,7 +396,7 @@ padding-left: 0%;
     width:350px;
     height:350px;
     position:fixed;
-    top:0;
+    top:25rem;
     bottom:0;
     right:0;
     left:0;
