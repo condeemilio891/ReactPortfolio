@@ -230,8 +230,9 @@ const About = () => {
                           Center for Autism
                         </li>
                       </ul>
+                      
                     </Col>
-                    
+              
                   </Row>
                 </Container>
               </Jumbotron>
