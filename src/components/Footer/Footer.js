@@ -92,6 +92,9 @@ function Footer() {
               <i className='fas fa-microscope' />
             </Link>
         </div>
+        <div class="jupiter">
+                <div></div>
+              </div>
       </section>
     </div>
   );

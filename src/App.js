@@ -4,8 +4,9 @@ import Projects from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
 import Footer from "./components/Footer/Footer"
 import MyNavbar from "./components/Navbar/MyNavbar";
-import Test from "./pages/test"
+
 import Wrapper from "./components/Wrapper";
+import onePage from "./pages/onePage/onePage";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Projects}/> 
-          <Route exact path='/test' component={Test}/>
+          <Route exact path='/test' component={onePage}/>
           
         </Wrapper>
         <Footer />

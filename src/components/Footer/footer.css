@@ -161,3 +161,36 @@
     font-size: 16px;
 
   }
+  .jupiter{
+    width:350px;
+    height:350px;
+    position:absolute;
+    top:100rem;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto 900px auto 1000px;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.jupiter:after{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.jupiter>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/jupiterMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
+}
