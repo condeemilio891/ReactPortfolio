@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import MyCard from "../../components/Card/cardui";
 import TabNav from "../../components/Tabs/tabNav";
 import AnimePic from "../../assets/animepic.png";
-import Container from "../../components/Container";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import "./Portfolio.css";
 import CalPic from "../../assets/calpic.jpg";
 import GRGPic from "../../assets/readMeGeneratorPic.png";
@@ -20,13 +22,19 @@ function Projects() {
       <TabNav>
         
       <div label="GameDex">
-          <Container>
+        
+          
+            
+              <Col lg={2}>
             <MyCard
               imgsrc={GamePic}
               title="GameDex"
               activeGit="https://github.com/ParkerM2/GamesList"
               activeLink="https://game-dex-ut.herokuapp.com/"
             ></MyCard>
+            </Col>
+            
+              <Col>
                 <NeonCard
                 cardTitleLeft="GameDex"
                  cardTextLeft="Allows users to create a password and a user page. Assigns a random pokemon for each user. 
@@ -38,9 +46,10 @@ function Projects() {
                  I used bootstrap and jquery to help create the front end.
                   I Helped with express authenticator, an NPM package that helps create and store usernames and passwords."
                 />
-
-
-          </Container>
+             
+             </Col>
+        
+          
         </div>
 
 
