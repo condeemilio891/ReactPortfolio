@@ -18,6 +18,22 @@ video {
     margin-top: 9rem;
     
   }
+  #aboutJumbotron{
+      position:relative;
+      top:27.5rem;
+      background:none;
+      margin-top:5rem;
+      margin-right:8rem;
+      margin-left:8rem;
+      padding: 2rem;
+      border: .3rem solid hsla(0,0%,100%,.5);
+      justify-content: groove;
+  }
+  #aboutTitle{
+      justify-content:center;
+      align-items: center;
+      display:flex;
+  }
 /* planets */
 .earth {
     width: 175px;

@@ -4,6 +4,7 @@ import Textbox from "../../components/Title/title"
 import Radio from "../../components/Radio/Radio"
 import Container from "react-bootstrap/Container"
 import Video from "../../assets/videos/spaceVid.mp4";
+import Jumbotron from "react-bootstrap/Jumbotron"
 import "./onePage.css"
 const onePage =()=>{
 
@@ -34,6 +35,23 @@ const onePage =()=>{
                 <div></div>
               </div>
        <Radio/>
+       <Jumbotron id="aboutJumbotron">
+         <Container>
+           <h1 id="aboutTitle">About</h1>
+           <p>
+           Hi! My name is Emilio. I am web developer
+                          leveraging a background in psychology and education
+                          using this experience to build a more intuitive user
+                          experience on the web. I worked on a team of four to
+                          develop a single-page MERN app that helps local gamers
+                          track their gaming-history, library, and friends. I’m
+                          excited to leverage my skills as part of a fast-paced,
+                          quality-driven team to build better experiences on the
+                          web. I also have experience with behavior therapy and
+                          education. I have taught at most age levels.
+           </p>
+         </Container>
+       </Jumbotron>
     <Projects/>
     </Container>
        
