@@ -4,7 +4,9 @@ import Textbox from "../../components/Title/title"
 import Radio from "../../components/Radio/Radio"
 import Container from "react-bootstrap/Container"
 import Video from "../../assets/videos/spaceVid.mp4";
-import Jumbotron from "react-bootstrap/Jumbotron"
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import "./onePage.css"
 const onePage =()=>{
 
@@ -38,7 +40,7 @@ const onePage =()=>{
        <Jumbotron id="aboutJumbotron">
          <Container>
            <h1 id="aboutTitle">About</h1>
-           <p>
+           <p id="aboutText">
            Hi! My name is Emilio. I am web developer
                           leveraging a background in psychology and education
                           using this experience to build a more intuitive user
@@ -50,6 +52,60 @@ const onePage =()=>{
                           web. I also have experience with behavior therapy and
                           education. I have taught at most age levels.
            </p>
+         </Container>
+       </Jumbotron>
+       <Jumbotron id="skillsJumbotron">
+         <Container>
+           <h1 id="skillsTitle">Skills</h1>
+           <Row>
+          <Col>
+          <ul>
+            <li>
+                Html
+            </li>
+            <li>
+                Css
+            </li>
+            <li>
+                JavaScript
+            </li>
+            <li>
+                React.js
+            </li>
+          </ul>
+          </Col>
+          
+          <Col>
+          <ul>
+          <li>
+                Bootstrap
+            </li>
+            <li>
+                Jquery
+            </li>
+            <li>
+                Express.js
+            </li>
+            <li>
+                node.js
+            </li>
+          </ul>
+          </Col>
+
+          <Col>
+          <ul>
+            <li>
+                Mongo
+            </li>
+            <li>
+                Sql
+            </li>
+            <li>
+              Spanish
+            </li>
+          </ul>
+          </Col>
+           </Row>
          </Container>
        </Jumbotron>
     <Projects/>

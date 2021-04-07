@@ -30,9 +30,37 @@ video {
       justify-content: groove;
   }
   #aboutTitle{
+    font-family: "Paladins";
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
       justify-content:center;
       align-items: center;
       display:flex;
+      color:gray
+  }
+  #aboutText{
+      color:#C0C0C0;
+
+  }
+  #skillsJumbotron{
+      position:relative;
+      top:30rem;
+      background:none;
+      margin-right:8rem;
+      margin-left:8rem;
+      padding: 2rem;
+      border: .3rem solid hsla(0,0%,100%,.5);
+      
+  }
+  #skillsTitle{
+    font-family: "Paladins";
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    color: grey;
+  }
+  li{
+      list-style-type:none;
+      font-size:1.1rem;
+      color:#C0C0C0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
   }
 /* planets */
 .earth {

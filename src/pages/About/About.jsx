@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Image from "react-bootstrap/Image";
 import Profile from "../../assets/picOfMeProfessional.png";
-import "./About.css";
+
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
