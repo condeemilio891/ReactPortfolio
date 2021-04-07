@@ -6,5 +6,5 @@
 <img src="src/assets/ReadmePic.jpg"> </img>
 <br>
 <br>
-##
+<img src="src/assets/aboutPicReadme.jpg"></img>
 <img src="src/assets/Exibition.jpg"></img>
