@@ -1,0 +1,365 @@
+
+
+#bg1{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    border:0 0 0 0;
+}
+#about{
+   margin:0 0 0 0;
+
+}
+video {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 9rem;
+    
+  }
+  #aboutJumbotron{
+      position:relative;
+      top:27.5rem;
+      background:none;
+      margin-top:5rem;
+      margin-right:8rem;
+      margin-left:8rem;
+      padding: 2rem;
+      border: .3rem solid hsla(0,0%,100%,.5);
+      justify-content: groove;
+  }
+  #aboutTitle{
+    font-family: "Paladins";
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+      justify-content:center;
+      align-items: center;
+      display:flex;
+      color:gray
+  }
+  #aboutText{
+      color:#C0C0C0;
+
+  }
+  #skillsJumbotron{
+      position:relative;
+      top:30rem;
+      background:none;
+      margin-right:8rem;
+      margin-left:8rem;
+      padding: 2rem;
+      border: .3rem solid hsla(0,0%,100%,.5);
+      
+  }
+  #skillsTitle{
+    font-family: "Paladins";
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    color: grey;
+  }
+  li{
+      list-style-type:none;
+      font-size:1.1rem;
+      color:#C0C0C0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  }
+/* planets */
+.earth {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: 25rem 55rem auto auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+    
+}
+
+@media screen and (max-width:800px) {
+    .earth{
+        width:100px;
+        height:100px;
+        position:absolute;
+        margin:25rem 55rem auto auto;
+        overflow:hidden; 
+        border-radius: 50%;
+        box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+    }
+    
+}
+
+.earth:after {
+    position: static;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+}
+
+.earth > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear infinite;
+    background: url("../../assets/earthMap.jpg");
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+}
+
+@keyframes spin {
+    to {
+        transform: translateX(-50%);
+    }
+}
+.earth:hover{
+    transform:scale(2)
+}
+
+.mars{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 70rem;
+    margin: auto auto auto auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+@media screen and (max-width:700px) {
+    .mars {
+        width:100px;
+        height:100px;
+        position:absolute;
+        margin:25rem 55rem auto auto;
+        overflow:hidden; 
+        border-radius: 50%;
+        box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+    }
+    .mars:after{
+        position: static;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: -20px -20px 50px 2px #000 inset;
+        border-radius: 50%;
+        z-index: 1;
+
+    }
+    .mars>div{
+        width: 200%;
+        height: 100%;
+        animation: spin 30s linear infinite;
+        background: url("../../assets/earthMap.jpg");
+        /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+        background-size: cover;
+
+    }
+    
+}
+.mars:after {
+    position: static;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mars > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear infinite;
+    background: url("../../assets/marsMap.jpg");
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+}
+.mars:hover{
+    transform:scale(2)
+}
+
+.mercury{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 5rem 15rem auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.mercury:after {
+    position: static;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+   
+}
+
+.mercury > div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear infinite;
+    background: url("../../assets/mercuryMap.jpg");
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+}
+.mercury:hover{
+    transform:scale(2)
+}
+@media screen and (max-width:700px) {
+    .mercury {
+        width:100px;
+        height:100px;
+        position:absolute;
+        margin:25rem 55rem auto auto;
+        overflow:hidden; 
+        border-radius: 50%;
+        box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+    }
+    .mercury:after{
+        position: static;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: -20px -20px 50px 2px #000 inset;
+        border-radius: 50%;
+        z-index: 1;
+
+    }
+    .mercury>div{
+        width: 200%;
+        height: 100%;
+        animation: spin 30s linear infinite;
+        background: url("../../assets/earthMap.jpg");
+        /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+        background-size: cover;
+
+    }
+    
+}
+.venus{
+    width:125px;
+    height: 125px;
+    position:absolute;
+    top: 0; 
+    bottom:0;
+    left:0;
+    right:0;
+    margin:25rem 10rem auto auto;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;   
+}
+@media screen and (max-width:900px) {
+    .venus {
+        width:100px;
+        height:100px;
+        position:absolute;
+        margin:25rem 55rem auto auto;
+        overflow:hidden; 
+        border-radius: 50%;
+        box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+    }
+    .venus:after{
+        position: static;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: -20px -20px 50px 2px #000 inset;
+        border-radius: 50%;
+        z-index: 1;
+
+    }
+    .venus>div{
+        width: 200%;
+        height: 100%;
+        animation: spin 30s linear infinite;
+        background: url("../../assets/earthMap.jpg");
+        /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+        background-size: cover;
+
+    }
+    
+}
+.venus:after{
+    position:static;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.venus>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/venusMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
+}
+.venus:hover{
+    transform:scale(2)
+}
+
+.sun{
+    width:350px;
+    height:350px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:100;
+    margin: auto 900px 400px auto;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+.sun:after{
+    position:absolute;
+    content:"";
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius:50%;
+
+}
+.sun>div{
+    width:200%;
+    height:100%;
+    background: url("../../assets/sunMap.jpg");
+    animation: spin 30s linear infinite;
+    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
+    background-size: cover;
+
+}
+/* planets(closing) */

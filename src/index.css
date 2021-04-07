@@ -6,7 +6,16 @@
    
 }
 
-
+@font-face{
+  font-family: "Paladins" ;
+  
+  src:local('Paladins') url(./assets/fonts/Paladins.otf) format('opentype');
+  
+}
+@font-face {
+  font-family: "Awakening";
+  src:local('Awakening') url(./assets/fonts/AwakenningPersonalUse-DOLPD.ttf) format('truetype');
+}
 html,
 body,
 #root,
@@ -16,6 +25,7 @@ div[data-reactroot] {
   height: 100%;
   padding: 0;
   margin: 0;
+  
 }
 
 /* Tabs componenet */

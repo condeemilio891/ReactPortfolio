@@ -1,464 +1,227 @@
 #col1{
-box-sizing: border-box;
-width: 500px;
-}
-#col2{
-    
-   padding-left:8px; 
-   padding-top: 0px;
-   padding-bottom: 0px;
-   margin-bottom:0px;
-   height: 800px;
-
-}
-/* alien pic */
-#planetPic{
-    position: absolute;
-    height: 175px;
-    align-items: center;
-    margin-left: 265px;
-   width: 275px;
- top: 100px; 
- left: 30px;
- animation: move 10s ease infinite;
-   
-
-}
-@keyframes move{
-    50%{
-        top:1px;
-        left:30px
+    box-sizing: border-box;
+    width: 500px;
     }
-}
-
-
-/* #planetPic:hover{
-    transform:rotateX(150deg)
-   
-   
-} */
-
-body, html {
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-    height: 100%;
-  
+    #col2{
+        
+       padding-left:8px; 
+       padding-top: 0px;
+       padding-bottom: 0px;
+       margin-bottom:0px;
+       height: 800px;
+    
     }
-    ul{
-        list-style-type: none;
+    /* alien pic */
+    #planetPic{
+        position: absolute;
+        height: 175px;
+        align-items: center;
+        margin-left: 265px;
+       width: 275px;
+     top: 100px; 
+     left: 30px;
+     animation: move 10s ease infinite;
+       
+    
     }
-
-h1{
-    color: azure;
-    font-weight: 400;
-}
-h1:hover{
- color:#999900
-}
-
-li{
-    color:whitesmoke ;
-    font-weight: bolder;
-    margin:10px 0;
-}
-p{
-    font-weight: bold;
-    color: white;
-}
-
-video {
+    @keyframes move{
+        50%{
+            top:1px;
+            left:30px
+        }
+    }
     
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
     
-  }
-
-#profile{
-height: 200px;
-width: 200px;
-float:left;
-z-index: 1;
-
-}
-#card{
-    z-index:1;
-}
-#aboutSection{
-    justify-content: center;
-    align-items: center;
-    margin-left: 30%;
-}
-#EmilioInfo{
-   background-image: url("../../assets/GalaxyBackground.jpg");
-   margin-top: 0px;
-   padding: 0;
-    background-repeat: repeat;
-    max-width: 100%;
-    margin-bottom: 420px;
-
-}
-#rightBackground{
+    /* #planetPic:hover{
+        transform:rotateX(150deg)
+       
+       
+    } */
     
-    background-color:black;
-
-}
-#leftBackground{
-    background-color:black;
-}
-#skills{
-    color:black;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
-}
-#brandStatement{
-    color:white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
-}
-#brandStatement:hover{
+    body, html {
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        height: 100%;
+      
+        }
+        ul{
+            list-style-type: none;
+        }
     
-    transform:scale(1.1);
-    transform: skew(-5deg);
-}
-#nameInfo:hover{
-    transform:scale(1.1);
-    color:yellow;
-
-}
-#cityInfo:hover{
-    transform:scale(1.1);
-    color:red;
-}
-#collegeInfo:hover{
-    transform:scale(1.1);
-    color:green;
-}
-#emailInfo:hover{
-    transform:scale(1.1);
-    color:blue
-}
-#phoneInfo:hover{
-    transform:scale(1.1);
-    color:purple
-}
-#moreInfo:hover{
-    transform:skew(10deg)
-}
-
-#Satelight{
-    height: 500px;
+    h1{
+        color: azure;
+        font-weight: 400;
+    }
+   
+    
+    li{
+        color:whitesmoke ;
+        font-weight: bolder;
+        margin:10px 0;
+    }
+    p{
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    
+    #profile{
+    height: 200px;
     width: 200px;
-    float:right
-}
-
-#bg1{
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-    border:0 0 0 0;
-}
-#about{
-   margin:0 0 0 0;
-
-}
-/* #react:hover{ 
-    color:lightblue;
-    transform: scale(1.1)
-}
-#javascript:hover{
-    color:#999900;
-    transform: scale(1.1)
-}
-
-#node:hover{
-    color:green;
-    transform: scale(1.1)
-
-}
-#spanish:hover{
-    transform:scale(1.1);
-    color:red;
-} */
-
-.skillsText:hover{
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
-    transform: scale(1.1);
-}
-.skillsIcons:hover{
-    transform:rotate(180deg);
-    color:red;
-}
-
-#github{
-    display: flex;
-    flex-direction: row;
-}
-
-#github:hover{
-    transform:scale(1.1)
-}
-#githubButton{
-    margin-top: 10%;
-    padding-left: 0%;
-    text-decoration: none;
-}
-#githubIcon{
-    margin-top: 5%;
-    height: 2rem;
-    width: 2rem;
-}
-#resume{
-    display: flex;
-    flex-direction: row;
-}
-#resume:hover{
-    transform:scale(1.1)
-}
-#resumeButton{
-    margin-top: 10%;
-    padding-left: 0%;
-}
-#resumeIcon{
-    margin-top: 5%;
-    height: 2rem;
-    width: 2rem;
-}
-
-#linkedIn{
-    display: flex;
-    flex-direction: row;
-}
-#linkedIn:hover{
-    transform:scale(1.1)
-}
-#linkedInButton{
- margin-top: 10%;
-padding-left: 0%;
-}
-#linkedInIcon{
-    margin-top: 5%;
-    height: 2rem;
-    width: 2rem;
-}
-.earth {
-    width: 75px;
-    height: 75px;
-    position: fixed;
-    top: 0;
-    bottom: 12.5rem;
-    left:42.5rem;
-    right: 0;
-    margin: auto auto auto 460px;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-
-.earth:after {
-    position: static;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-}
-
-.earth > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear infinite;
-    background: url("../../assets/earthMap.jpg");
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-}
-
-@keyframes spin {
-    to {
-        transform: translateX(-50%);
-    }
-}
-.earth:hover{
-    transform:scale(2)
-}
-
-.mars{
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    bottom: 3rem;
-    left: 38rem;
-    right: 0;
-    margin: auto auto auto 540px;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-.mars:after {
-    position: static;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
+    float:left;
     z-index: 1;
-}
-
-.mars > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear infinite;
-    background: url("../../assets/marsMap.jpg");
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-}
-.mars:hover{
-    transform:scale(2)
-}
-
-.mercury{
-    width: 55px;
-    height: 55px;
-    position: fixed;
-    top: 0;
-    bottom: 33rem;
-    left: 53.5rem;
-    right: 0;
-    margin: auto auto auto 300px;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-.mercury:after {
-    position: static;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    right: 0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-   
-}
-
-.mercury > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear infinite;
-    background: url("../../assets/mercuryMap.jpg");
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-}
-.mercury:hover{
-    transform:scale(2)
-}
-
-.venus{
-    width:75px;
-    height:75px;
-    position:fixed;
-    top: 0; 
-    bottom:23rem;
-    left:48rem;
-    right:0;
-    margin:auto auto auto 375px;
-    overflow:hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-.venus:after{
-    position:static;
-    content:"";
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius:50%;
-
-}
-.venus>div{
-    width:200%;
-    height:100%;
-    background: url("../../assets/venusMap.jpg");
-    animation: spin 30s linear infinite;
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-
-}
-.venus:hover{
-    transform:scale(2)
-}
-.jupiter{
-    width:350px;
-    height:350px;
-    position:fixed;
-    top:25rem;
-    bottom:0;
-    right:0;
-    left:0;
-    margin: auto 900px auto 1000px;
-    overflow:hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-.jupiter:after{
-    position:absolute;
-    content:"";
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius:50%;
-
-}
-.jupiter>div{
-    width:200%;
-    height:100%;
-    background: url("../../assets/jupiterMap.jpg");
-    animation: spin 30s linear infinite;
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-
-}
-.sun{
-    width:350px;
-    height:350px;
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:100;
-    margin: auto 900px 400px auto;
-    overflow:hidden;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-}
-.sun:after{
-    position:absolute;
-    content:"";
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius:50%;
-
-}
-.sun>div{
-    width:200%;
-    height:100%;
-    background: url("../../assets/sunMap.jpg");
-    animation: spin 30s linear infinite;
-    /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
-    background-size: cover;
-
-}
-#lyricsAccordian{
-    background-color: black;
-    color:white
-}
+    
+    }
+    #card{
+        z-index:1;
+    }
+    #aboutSection{
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+    #EmilioInfo{
+       background-image: url("../../assets/GalaxyBackground.jpg");
+       margin-top: 0px;
+       padding: 0;
+        background-repeat: repeat;
+        max-width: 100%;
+        margin-bottom: 420px;
+    
+    }
+    #rightBackground{
+        
+        background-color:black;
+    
+    }
+    #leftBackground{
+        background-color:black;
+    }
+    #skills{
+        color:black;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    }
+    #brandStatement{
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    }
+    #brandStatement:hover{
+        
+        transform:scale(1.1);
+        transform: skew(-5deg);
+    }
+    #nameInfo:hover{
+        transform:scale(1.1);
+        color:yellow;
+    
+    }
+    #cityInfo:hover{
+        transform:scale(1.1);
+        color:red;
+    }
+    #collegeInfo:hover{
+        transform:scale(1.1);
+        color:green;
+    }
+    #emailInfo:hover{
+        transform:scale(1.1);
+        color:blue
+    }
+    #phoneInfo:hover{
+        transform:scale(1.1);
+        color:purple
+    }
+    #moreInfo:hover{
+        transform:skew(10deg)
+    }
+    
+    #Satelight{
+        height: 500px;
+        width: 200px;
+        float:right
+    }
+    
+    /* #react:hover{ 
+        color:lightblue;
+        transform: scale(1.1)
+    }
+    #javascript:hover{
+        color:#999900;
+        transform: scale(1.1)
+    }
+    #node:hover{
+        color:green;
+        transform: scale(1.1)
+    }
+    #spanish:hover{
+        transform:scale(1.1);
+        color:red;
+    } */
+    
+    .skillsText:hover{
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+        transform: scale(1.1);
+    }
+    .skillsIcons:hover{
+        transform:rotate(180deg);
+        color:red;
+    }
+    
+    #github{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #github:hover{
+        transform:scale(1.1)
+    }
+    #githubButton{
+        margin-top: 10%;
+        padding-left: 0%;
+        text-decoration: none;
+    }
+    #githubIcon{
+        margin-top: 5%;
+        height: 2rem;
+        width: 2rem;
+    }
+    #resume{
+        display: flex;
+        flex-direction: row;
+    }
+    #resume:hover{
+        transform:scale(1.1)
+    }
+    #resumeButton{
+        margin-top: 10%;
+        padding-left: 0%;
+    }
+    #resumeIcon{
+        margin-top: 5%;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    #linkedIn{
+        display: flex;
+        flex-direction: row;
+    }
+    #linkedIn:hover{
+        transform:scale(1.1)
+    }
+    #linkedInButton{
+     margin-top: 10%;
+    padding-left: 0%;
+    }
+    #linkedInIcon{
+        margin-top: 5%;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    #lyricsAccordian{
+        background-color: black;
+        color:white
+    }
+  
