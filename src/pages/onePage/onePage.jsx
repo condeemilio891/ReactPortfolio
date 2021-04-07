@@ -7,6 +7,20 @@ import Video from "../../assets/videos/spaceVid.mp4";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faJs } from "@fortawesome/free-brands-svg-icons";
+import { faNode } from "@fortawesome/free-brands-svg-icons";
+import { DiJavascript } from "react-icons/di";
+import { DiJqueryLogo } from "react-icons/di";
+import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt} from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap} from "@fortawesome/free-brands-svg-icons";
+import { faList } from "@fortawesome/free-solid-svg-icons";
+import { GrMysql } from "react-icons/gr";
+import { SiMongodb } from "react-icons/si";
+import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import "./onePage.css"
 const onePage =()=>{
 
@@ -56,21 +70,25 @@ const onePage =()=>{
        </Jumbotron>
        <Jumbotron id="skillsJumbotron">
          <Container>
-           <h1 id="skillsTitle">Skills</h1>
+           <h1 id="skillsTitle">Skills and Projects</h1>
            <Row>
           <Col>
           <ul>
             <li>
-                Html
+            <FontAwesomeIcon className="skillsIcons" id="react" icon={faHtml5} />
+                HTML
             </li>
             <li>
-                Css
+            <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faCss3Alt} />
+                CSS
             </li>
             <li>
+            <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faJs} />
                 JavaScript
             </li>
             <li>
-                React.js
+            <FontAwesomeIcon className="skillsIcons" id="react" icon={faReact} />
+                React
             </li>
           </ul>
           </Col>
@@ -78,16 +96,20 @@ const onePage =()=>{
           <Col>
           <ul>
           <li>
+          <FontAwesomeIcon className="skillsIcons" id="javascript" icon={faBootstrap} />
                 Bootstrap
             </li>
             <li>
-                Jquery
+            <DiJqueryLogo className= "skillsText" />
+                jQuery
             </li>
             <li>
+            <DiJavascript className="skillsIcons"/>
                 Express.js
             </li>
             <li>
-                node.js
+            <FontAwesomeIcon className="skillsIcons" id="node" icon={faNode} />
+                Node.js
             </li>
           </ul>
           </Col>
@@ -95,12 +117,15 @@ const onePage =()=>{
           <Col>
           <ul>
             <li>
+            <SiMongodb  className="skillsIcons" />
                 Mongo
             </li>
             <li>
-                Sql
+            <GrMysql className="skillsIcons" />
+                SQL
             </li>
             <li>
+            <FontAwesomeIcon className="skillsIcons" id="spanish" icon={faLanguage} />
               Spanish
             </li>
           </ul>

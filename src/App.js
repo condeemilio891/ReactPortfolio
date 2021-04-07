@@ -12,12 +12,11 @@ function App() {
   return (
     <Router basename="/">
       <div>
-        <MyNavbar/>
         <Wrapper>
-          <Route exact path="/ReactPortfolio" component={About}/>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Projects}/> 
+          <Route exact path="/ReactPortfolio" component={onePage}/>
+          <Route exact path="/" component={onePage} />
+          <Route exact path="/about" component={onePage} />
+          <Route exact path="/portfolio" component={onePage}/> 
           <Route exact path='/test' component={onePage}/>
           
         </Wrapper>

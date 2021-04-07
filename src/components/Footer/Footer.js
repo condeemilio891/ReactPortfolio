@@ -5,7 +5,6 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 
-
 function Footer() {
   var dateToFormat= new Date('Mon Jan 12 00:00:00 GMT 2015');
   // Moment(dateToFormat)
@@ -27,9 +26,6 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <i className='fas fa-microscope' />
-            </Link>
       </div>
         
           <div className='social-icons'>
