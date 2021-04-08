@@ -29,9 +29,23 @@ video {
       border: .3rem solid hsla(0,0%,100%,.5);
       justify-content: groove;
   }
+  @media screen and (max-width:900px){
+    #aboutJumbotron{
+        position:relative;
+        top:27.5rem;
+        background:none;
+        margin-top:5rem;
+        margin-right:4rem;
+        margin-left:4rem;
+        padding: 2rem;
+        border: .3rem solid hsla(0,0%,100%,.5);
+        justify-content: groove;
+    }
+  }
   #aboutTitle{
     font-family: "Paladins";
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    font-size:1.7rem;
       justify-content:center;
       align-items: center;
       display:flex;
@@ -39,6 +53,8 @@ video {
   }
   #aboutText{
       color:#C0C0C0;
+      font-size: .8rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
 
   }
   #skillsJumbotron{
@@ -50,6 +66,18 @@ video {
       padding: 2rem;
       border: .3rem solid hsla(0,0%,100%,.5);
       
+  }
+  @media screen and (max-width:900px){
+    #skillsJumbotron{
+        position:relative;
+        top:30rem;
+        background:none;
+        margin-right:3rem;
+        margin-left:3rem;
+        padding: 2rem;
+        border: .3rem solid hsla(0,0%,100%,.5);
+        
+    }
   }
   #skillsTitle{
     font-family: "Paladins";
