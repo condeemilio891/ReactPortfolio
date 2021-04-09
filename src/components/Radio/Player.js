@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react'
 import Controls from './PlayerControls';
 import Details from './PlayerDetails';
-
+import { motion } from "framer-motion"
 
 function Player(props) {
     const audioEl = useRef(null);
@@ -10,6 +10,7 @@ function Player(props) {
     useEffect(() => {
         if (isPlaying) {
             audioEl.current.play();
+            
         } else {
             audioEl.current.pause();
         }
@@ -44,10 +45,21 @@ function Player(props) {
     return (
         <div className="c-player">
             <audio crossOrigin="anonymous" src={props.songs[props.currentSongIndex].src} ref={audioEl}></audio>
-            <h4>Space Radio</h4>
+            <motion.h4 
+            initial={{initial:".5rem"}}
+            animate={{fontSize:"2rem"}}
+            transition={{
+                delay:.05,
+                duration:1.5
+            }}
+            >Space Radio</motion.h4>
             <Details song={props.songs[props.currentSongIndex]} />
             <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
-            <p>Next up: <span>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</span></p>
+            <p>
+                Next up: <span>{props.songs[props.nextSongIndex].title} 
+                by 
+                {props.songs[props.nextSongIndex].artist}</span>
+            </p>
         </div>
     )
 }

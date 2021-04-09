@@ -22,6 +22,7 @@ import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import "./onePage.css"
+import { motion } from "framer-motion"
 const onePage =()=>{
 
  return(
