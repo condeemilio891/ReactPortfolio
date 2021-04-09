@@ -41,13 +41,13 @@ function Radio() {
     {
       title: "One More Time(2011)",
        artist: "Daft Punk",
-       img_src:"/images/Discovery",
-       src: process.env.PUBLIC_URL+"/music/OneMoteTime.mp3"
+       img_src:"/images/Discovery.jpg",
+       src: process.env.PUBLIC_URL+"/music/OneMoreTime.mp3"
     },
     {
       title:"Sometimes(1991)",
       artist:"My Bloddy Valentine",
-      img_src:"/images/loveless",
+      img_src:"/images/loveless,jpg",
       src: process.env.PUBLIC_URL+"/music/Sometimes.mp3"   
     },  
     {
