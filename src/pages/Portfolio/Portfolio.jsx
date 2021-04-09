@@ -25,16 +25,14 @@ function Projects() {
         
           
             
-              <Col lg={2}>
+              <Container>
             <MyCard
               imgsrc={GamePic}
               title="GameDex"
               activeGit="https://github.com/ParkerM2/GamesList"
               activeLink="https://game-dex-ut.herokuapp.com/"
             ></MyCard>
-            </Col>
-            
-              <Col>
+           </Container>
                 <NeonCard
                 cardTitleLeft="GameDex"
                  cardTextLeft="Allows users to create a password and a user page. Assigns a random pokemon for each user. 
@@ -47,7 +45,7 @@ function Projects() {
                   I Helped with express authenticator, an NPM package that helps create and store usernames and passwords."
                 />
              
-             </Col>
+          
         
           
         </div>

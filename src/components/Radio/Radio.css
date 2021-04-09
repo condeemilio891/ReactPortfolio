@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Paladins", sans-serif;
     z-index:2;
 }
 
@@ -19,13 +19,13 @@ body {
 
 .c-player {
     display: block;
-    background-color: #313131;
+    background-color: none;
     display: block;
     margin: 0px auto;
     padding: 50px;
     border-radius: 16px;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
-    height:200px;
+    height: 200px;
     width:300px;
 }
 
@@ -35,6 +35,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .c-player > p {
@@ -42,10 +43,14 @@ body {
     font-size: 14px;
     text-align: center;
     font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .c-player > p span {
-    font-weight: 400;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 1rem;
+    color:#D3D3D3;
 }
 
 .c-player--details .details-img {
@@ -73,20 +78,21 @@ body {
     right: -25px;
     bottom: -25px;
     border-radius: 50%;
-    border: 3px dashed rgba(255, 206, 0, 1);
+    border: none;
 }
 
 .c-player--details .details-title {
     color: #EEE;
-    font-size: 28px;
+    font-size: 15px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
     text-align: center;
-    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .c-player--details .details-artist {
     color: #AAA;
-    font-size: 20px;
+    font-size: 14px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
     text-align: center;
     margin-bottom: 2px;
@@ -107,7 +113,7 @@ body {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
     border: none;
     outline: none;
-    background-color: #FFCE00;
+    background-color: silver;
     color: #FFF;
     font-size: 24px;
     cursor: pointer;
@@ -115,9 +121,9 @@ body {
 
 .c-player--controls .skip-btn {
     background: none;
-    border: none;
+    border:silver;
     outline: none;
     cursor: pointer;
-    color: black;
+    color: #FFF;
     font-size: 18px;
 }
