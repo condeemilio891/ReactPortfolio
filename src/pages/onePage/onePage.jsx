@@ -39,12 +39,42 @@ const onePage =()=>{
      <Textbox
        name= "Emilio Conde"
        subTitle="Front-End Developer"/>
-         <div class="mercury">
-                <div></div>
-              </div>
-              <div class="venus">
-                <div></div>
-              </div>
+       
+         <motion.div 
+         initial={{height:"80px", width:"80px"}}
+
+         animate={{height:"30px",width:"30px",
+         x: [0,-1000,0]}}
+
+         transition={{
+          
+          repeat:10,
+                      duration:30,
+                      ease:"easeInOut"}}
+         class="mercury">
+                <motion.div></motion.div>
+              </motion.div>
+
+
+
+              <motion.div
+              
+
+              animate={{height:["30px","80px","140px","140px","80px","30px"],width:["30px","80px","140px","140px","80px","30px"],
+              x: [0,-500, -1000,-500,0]}}
+     
+              transition={{
+               
+               repeat:10,
+               delay:0,
+                           duration:10,
+                           ease:"easeInOut"}}
+              class="venus">
+                <motion.div></motion.div>
+              </motion.div>
+
+
+
               <div class="earth">
                 <div></div>
               </div>
