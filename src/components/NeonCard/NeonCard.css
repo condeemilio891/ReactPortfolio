@@ -9,11 +9,11 @@
 .neonContainer{
     position:relative;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 70px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
     flex-wrap: wrap;
-    left:0;
+    left:15rem;
     bottom: 30rem;
 
 
@@ -26,8 +26,9 @@
         bottom:0;
         top:165rem;
         right:.05rem;
-        justify-content: center;
-        align-items: center;
+        left: 5rem;
+        justify-content: flex-start;
+        align-items: flex-start;
         margin:0;
 
     }

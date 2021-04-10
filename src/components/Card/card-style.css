@@ -1,3 +1,6 @@
+*{
+  z-index: 3;
+}
 body{
   background: black;
   
@@ -48,8 +51,4 @@ body{
   color:black;
   text-align: center;
   align-items: center;
-}
-#accordian{
-  justify-content: center;
-  
 }
