@@ -55,29 +55,41 @@ const onePage =()=>{
                 <motion.div></motion.div>
               </motion.div>
 
+              {/* venus */}
 
-
-              {/* <motion.div
+               <motion.div
               
 
-              animate={{height:["30px","80px","140px","140px","80px","30px"],width:["30px","80px","140px","140px","80px","30px"],
-              x: [0,-500, -1000,-500,0]}}
+              animate={{height:["100px","50px","100px",'140px',"100px"],width:["100px","50px","100px",'140px',"100px"],
+              x: [0,-500,-1000,-500,0]}}
      
               transition={{
                
                repeat:10,
                delay:0,
-                           duration:10,
-                           ease:"easeInOut"}}
+                           duration:30,
+                           ease:"circIn"}}
               class="venus">
                 <motion.div></motion.div>
-              </motion.div> */}
+              </motion.div> 
 
 
 
-              <div class="earth">
-                <div></div>
-              </div>
+              <motion.div
+                            animate={{height:["100px","150px","80px",'60px',"100px"],width:["100px","150px","80px",'60px',"100px"],
+                            x: [0,500,800,500,0]}}
+
+                            transition={{
+                            
+                            repeat:10,
+                            delay:5,
+             duration:50,
+             ease:"circIn"}}
+
+
+               class="earth">
+                <motion.div></motion.div>
+              </motion.div>
               <div class="mars">
                 <div></div>
               </div>
