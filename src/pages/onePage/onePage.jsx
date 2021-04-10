@@ -57,7 +57,7 @@ const onePage =()=>{
 
 
 
-              <motion.div
+              {/* <motion.div
               
 
               animate={{height:["30px","80px","140px","140px","80px","30px"],width:["30px","80px","140px","140px","80px","30px"],
@@ -71,7 +71,7 @@ const onePage =()=>{
                            ease:"easeInOut"}}
               class="venus">
                 <motion.div></motion.div>
-              </motion.div>
+              </motion.div> */}
 
 
 
