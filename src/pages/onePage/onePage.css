@@ -101,7 +101,7 @@ video {
     bottom: 0;
     left:0;
     right: 0;
-    margin: 25rem 55rem auto auto;
+    margin: 25rem 75rem auto auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
@@ -154,8 +154,8 @@ video {
     width: 125px;
     height: 125px;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 10rem;
+    bottom: 0rem;
     left: 0;
     right: 70rem;
     margin: auto auto auto auto;

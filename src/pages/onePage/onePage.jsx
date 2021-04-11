@@ -40,17 +40,21 @@ const onePage =()=>{
        name= "Emilio Conde"
        subTitle="Front-End Developer"/>
        
-         <motion.div 
-         initial={{height:"80px", width:"80px"}}
+        {/* mercury */}
 
-         animate={{height:"30px",width:"30px",
+
+         <motion.div 
+         
+
+         animate={{height:["80px","5px","120px","80px",],width:["80px","5px","120px","80px"],
          x: [0,-1000,0]}}
 
          transition={{
-          
-          repeat:10,
-                      duration:30,
-                      ease:"easeInOut"}}
+          repeatType:'loop',
+          repeat:10000,
+          delay:3,
+                      duration:25,
+                      ease:"linear"}}
          class="mercury">
                 <motion.div></motion.div>
               </motion.div>
@@ -60,39 +64,59 @@ const onePage =()=>{
                <motion.div
               
 
-              animate={{height:["100px","50px","100px",'140px',"100px"],width:["100px","50px","100px",'140px',"100px"],
+              animate={{height:["100px","20px","100px",'140px',"100px"],width:["100px","20px","100px",'140px',"100px"],
               x: [0,-500,-1000,-500,0]}}
      
               transition={{
                
-               repeat:10,
-               delay:0,
-                           duration:30,
-                           ease:"circIn"}}
+                repeat:10000,
+                repeatType:'loop',
+               delay:2,
+                           duration: 50,
+                           ease:"linear"}}
               class="venus">
                 <motion.div></motion.div>
               </motion.div> 
 
-
+                  {/* earth */}
 
               <motion.div
-                            animate={{height:["100px","150px","80px",'60px',"100px"],width:["100px","150px","80px",'60px',"100px"],
-                            x: [0,500,800,500,0]}}
+                            animate={{height:["100px","180px",'20px',"100px"],width:["100px","180px",'20px',"100px"],
+                            x: [0,450,1200,450,0]}}
 
                             transition={{
                             
-                            repeat:10,
+                            repeat:10000,
+                            repeatType:"loop",
                             delay:5,
-             duration:50,
-             ease:"circIn"}}
+             duration:75,
+             ease:"linear"}}
 
 
                class="earth">
                 <motion.div></motion.div>
               </motion.div>
-              <div class="mars">
-                <div></div>
-              </div>
+
+                {/* mars  */}
+
+              <motion.div
+              
+              animate={{height:["100px","150px",'10px',"100px"],width:["100px","150px",'10px',"100px"],
+              x: [0,500,800,500,0]}}
+
+              transition={{
+              
+                repeat:10000,
+                repeatType:'loop',
+              delay:15,
+              duration:100,
+              ease:"linear"}}
+              
+              
+              
+              class="mars">
+                <motion.div></motion.div>
+              </motion.div>
        <Radio/>
        <Jumbotron id="aboutJumbotron">
          <Container>
