@@ -7,12 +7,7 @@ import "./Radio.css"
 
 function Radio() {
   const [songs] = useState([
-    {
-      title: "Time (Cover) (2014)",
-      artist: "Easy Star All Stars",
-      img_src:"/images/dubSide.jpg",
-      src: process.env.PUBLIC_URL +"/music/Breathe.mp3"
-    },
+  
     { title:"Luminescence (Stellaris-2016)",
       artist: "Andres Waldorf",
       img_src:"/images/Stellaris.jpg",
