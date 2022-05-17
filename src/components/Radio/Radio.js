@@ -7,25 +7,50 @@ import "./Radio.css"
 
 function Radio() {
   const [songs] = useState([
-  
-    { title:"Luminescence (Stellaris-2016)",
-      artist: "Andres Waldorf",
-      img_src:"/images/Stellaris.jpg",
-      src: process.env.PUBLIC_URL+"/music/luminescence.mp3"
-      
+
+
+
+    {
+      title: "Rocket Man",
+      artist: "Elton John",
+      img_src:"/images/HonkyChâteau.jpg",
+      src: process.env.PUBLIC_URL + "/music/Rocketman.mp3"
     },
+
     
+
     {
-      title:"Alison (1993)",
-      artist:"SlowDive ",
-      img_src:"/images/Souvlaki.jpg",
-      src:process.env.PUBLIC_URL+"/music/Alison.mp3"
+      title:"Luminescence",
+      artist:"Andres Waldorf and Bert Meyer ",
+      img_src:"/images/Stellaris.jpg",
+      src: process.env.PUBLIC_URL +"/music/luminescence.mp3"
+    }, 
+    {
+      title : "StarBoy",
+      artist: "The Weeknd + Daft Punk",
+      img_src:"/images/Starboy.jpg",
+      src: process.env.PUBLIC_URL+ "/music/Starboy.mp3"
     },
+
     {
-      title: "I Feel Space(2006)",
-      artist: "LindStrom",
-      img_src:"/images/IFeelSpace.jpg",
-      src: process.env.PUBLIC_URL+"/music/IFeelSpace.mp3"
+      title: "Terran 3 (Starcraft-1998)",
+      artist: "Blizzard Entertainment ",
+      img_src: "/images/starcraft-original-box.webp",
+      src: process.env.PUBLIC_URL+ "/music/Terran3Starcraft.mp3"
+    },
+   
+    {
+      title: "Terminally Chill",
+      artist: "Neon Indian",
+      img_src: "/images/PsychicChasms.jpg",
+      src: process.env.PUBLIC_URL +"/music/TerminallyChill.mp3"
+    },
+  
+    {
+      title: "Machine Gun",
+      artist: " Slowdive",
+      img_src: "/images/Souvlaki.jpg",
+      src: process.env.PUBLIC_URL+"/music/MachineGun.mp3"
     },
     {
       title:"Nangs(2015)",
@@ -33,30 +58,46 @@ function Radio() {
       img_src:"/images/Currents.jpg",
       src:process.env.PUBLIC_URL+"/music/Nangs.mp3"
     },
+
     {
       title: "One More Time(2011)",
        artist: "Daft Punk",
        img_src:"/images/Discovery.jpg",
        src: process.env.PUBLIC_URL+"/music/OneMoreTime.mp3"
     },
+
+    {
+      title: "Ship Of Fools",
+      artist: "Grateful Dead",
+      img_src: "/images/MarsHotel.jpg",
+      src: process.env.PUBLIC_URL + "music/shipOfFools.mp3"
+    },
+
+
     {
       title:"Sometimes(1991)",
       artist:"My Bloddy Valentine",
-      img_src:"/images/loveless,jpg",
+      img_src:"/images/loveless.jpg",
       src: process.env.PUBLIC_URL+"/music/Sometimes.mp3"   
     },  
-    {
-      title: "Terran 3 (Starcraft-1998)",
-      artist: "Blizzard Entertainment ",
-      img_src: "/images/starcraft-original-box.webp",
-      src: process.env.PUBLIC_URL+ "/music/Terran3Starcraft.mp3"
+  
+    { title:"Riding the Solar Wind (Stellaris-2016)",
+      artist: "Andres Waldorf and Bert Meyer ",
+      img_src:"/images/Stellaris.jpg",
+      src: process.env.PUBLIC_URL+"/music/RidingTheSolarWind.flac"
+      
     },
+
+
+    
     {
-      title:" Space Jam (1996)",
-      artist:"Quad City DJ's",
-      img_src:"/images/spacejamcover.jpg",
-      src: process.env.PUBLIC_URL +"/music/SpaceJamThemeSong.mp3"
+      title:"Alison (1993)",
+      artist:"SlowDive ",
+      img_src:"/images/Souvlaki.jpg",
+      src:process.env.PUBLIC_URL+"/music/Alison.mp3"
     },
+  
+    
     {
       title:"Only Tommorow (2013)",
       artist: "My Bloody Valentine ",

@@ -11,6 +11,7 @@ import GRGPic from "../../assets/readMeGeneratorPic.png";
 import QuizPic from "../../assets/Untitled.png";
 import GamePic from "../../assets/Gamedexexibition.png";
 import EMS from "../../assets/EMS.jpg"
+import SolarSystemWebPic from "../../assets/SolarSystemInfoWebPic.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilm } from '@fortawesome/free-solid-svg-icons'
 import NeonCard from "../../components/NeonCard/NeonCard"
@@ -21,6 +22,32 @@ function Projects() {
     <div id="bg">
       <TabNav>
         
+      <div label="MarsPhotoSearch">
+        
+          
+            
+        <Container>
+      <MyCard
+        imgsrc={SolarSystemWebPic}
+        title="Solar System"
+        activeGit="https://github.com/condeemilio891/SolarSystem"
+        activeLink="https://solarsystemi.netlify.app/"
+      ></MyCard>
+     </Container>
+          <NeonCard
+          cardTitleLeft="Solar System Info"
+           cardTextLeft="Solo Project about the solar system. Currently a user can search for the latest photos taken on Mars 
+           by using NASA's MarsPhoto API. There is also a small artistic model of the solar system that tells the user about the planet 
+           selected.  
+           "
+           cardTextRight="I Used Material ui, Styled-Compenents, React spring for animation and UI. I used NASA api to populate information 
+           about rovers and photos taken daily."
+          />
+       
+    
+  
+    
+  </div>
       <div label="GameDex">
         
           
