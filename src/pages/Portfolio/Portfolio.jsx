@@ -10,6 +10,7 @@ import CalPic from "../../assets/calpic.jpg";
 import GRGPic from "../../assets/readMeGeneratorPic.png";
 import QuizPic from "../../assets/Untitled.png";
 import GamePic from "../../assets/Gamedexexibition.png";
+import DenimHaircut from "../../assets/DenimHaircutPic.png"
 import EMS from "../../assets/EMS.jpg"
 import SolarSystemWebPic from "../../assets/SolarSystemInfoWebPic.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -43,10 +44,26 @@ function Projects() {
            cardTextRight="I Used Material ui, Styled-Compenents, React spring for animation and UI. I used NASA api to populate information 
            about rovers and photos taken daily."
           />
-       
-    
-  
-    
+  </div>
+
+  <div label="Denim HairCut">
+        
+          
+            
+        <Container>
+      <MyCard
+        imgsrc={DenimHaircut}
+        title="Denim Haircut"
+        activeGit="https://github.com/condeemilio891/DenimHaircut"
+        activeLink="https://denim-haircut.herokuapp.com/"
+      ></MyCard>
+     </Container>
+          <NeonCard
+          cardTitleLeft="Denim Haircut"
+           cardTextLeft="Website I made for a local band 
+           "
+           cardTextRight="I Used styled components, react scroll and Framer motion."
+          />
   </div>
       <div label="GameDex">
         
