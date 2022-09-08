@@ -175,12 +175,8 @@
   .jupiter{
     width:350px;
     height:350px;
-    position:absolute;
-    top:100rem;
-    bottom:100rem;
-    right:0;
-    left:0;
-    margin-top:50rem;
+    position:relative;
+
     overflow:hidden;
     border-radius: 50%;
     z-index:-1;

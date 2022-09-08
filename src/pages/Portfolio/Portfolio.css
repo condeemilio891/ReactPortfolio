@@ -1,6 +1,7 @@
 
 body, html {
     height: 100%;
+    width: 100%;
     background-image: url(../../assets/Moon.jpg);
     }
 #bg {
@@ -10,6 +11,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    margin-top: 30rem;
+    margin-top: 60%;
     margin-left:8rem
     }

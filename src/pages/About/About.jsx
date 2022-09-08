@@ -184,12 +184,8 @@ const About = () => {
                           Hi! My name is Emilio. I am web developer
                           leveraging a background in psychology and education
                           using this experience to build a more intuitive user
-                          experience on the web. I worked on a team of four to
-                          develop a single-page MERN app that helps local gamers
-                          track their gaming-history, library, and friends. I’m
-                          excited to leverage my skills as part of a fast-paced,
-                          quality-driven team to build better experiences on the
-                          web. I also have experience with behavior therapy and
+                          experience on the web. Currently I am teaching unreal engine and working on a space website. 
+                           I also have experience with behavior therapy and
                           education. I have taught at most age levels.
                         </p>
                       </ul>

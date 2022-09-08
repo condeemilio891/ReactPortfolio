@@ -21,6 +21,7 @@ import { faList } from "@fortawesome/free-solid-svg-icons";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
+import { SiUnrealengine } from "react-icons/si"
 import "./onePage.css"
 import { motion } from "framer-motion"
 const onePage =()=>{
@@ -190,6 +191,10 @@ const onePage =()=>{
             <li>
             <GrMysql className="skillsIcons" />
                 SQL
+            </li>
+            <li>
+            <SiUnrealengine className="skillsIcons" />
+                Unreal Engine
             </li>
             <li>
             <FontAwesomeIcon className="skillsIcons" id="spanish" icon={faLanguage} />
