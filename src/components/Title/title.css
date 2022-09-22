@@ -8,7 +8,9 @@
     text-align: center;
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
-    margin-left:25%;
+    position: absolute;
+    left: 35%;
+   top:0;
 }
 #subTitle{
     font-family: "Paladins";
@@ -17,5 +19,8 @@
     text-align:center;
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0,0,0,10), -2px -2px 4px rgba(255,255,255,0.4);
-    margin-left:25%;
+    position: absolute;
+    left: 39.5%;
+    top:10%;
+
 }
