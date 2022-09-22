@@ -20,7 +20,7 @@ import NeonCard from "../../components/NeonCard/NeonCard"
 
 function Projects() {
   return (
-    <div id="bg">
+    <div id="projectbg">
       <TabNav>
         
       <div label="MarsPhotoSearch">

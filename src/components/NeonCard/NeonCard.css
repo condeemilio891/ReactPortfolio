@@ -21,15 +21,7 @@
 
 @media screen and (max-width: 900px){
     .neonContainer{
-        position:absolute;
-        display: flex;
-        bottom:0;
-        top:165rem;
-        right:.05rem;
-        left: 5rem;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin:0;
+        display: none;
 
     }
 }

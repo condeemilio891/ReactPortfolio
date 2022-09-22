@@ -20,10 +20,11 @@ function App() {
           <Route exact path='/test' component={onePage}/>
           
         </Wrapper>
-        <Footer />
+       
       </div>
-      
+    
     </Router>
+    
     
   );
 }

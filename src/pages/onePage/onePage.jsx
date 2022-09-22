@@ -24,6 +24,7 @@ import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { SiUnrealengine } from "react-icons/si"
 import "./onePage.css"
 import { motion } from "framer-motion"
+import Footer from "../../components/Footer/Footer"
 const onePage =()=>{
 
  return(
@@ -206,10 +207,12 @@ const onePage =()=>{
            </Row>
          </Container>
        </Jumbotron>
-    <Projects/>
+       <Projects/>
     </Container>
+   
        
        </div>
+       <Footer/>
      </div>
    
     
