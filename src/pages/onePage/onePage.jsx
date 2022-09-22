@@ -38,6 +38,7 @@ const onePage =()=>{
             <source src={Video} type="video/mp4" />
           </video>
      <Textbox
+     id="titleTextBox"
        name= "Emilio Conde"
        subTitle="Front-End Developer"/>
        
