@@ -125,16 +125,11 @@ const onePage =()=>{
          <Container>
            <h1 id="aboutTitle">About</h1>
            <p id="aboutText">
-           Hi! My name is Emilio. I am web developer
-                          leveraging a background in psychology and education
-                          using this experience to build a more intuitive user
-                          experience on the web. I worked on a team of four to
-                          develop a single-page MERN app that helps local gamers
-                          track their gaming-history, library, and friends. I’m
-                          excited to leverage my skills as part of a fast-paced,
-                          quality-driven team to build better experiences on the
-                          web. I also have experience with behavior therapy and
-                          education. I have taught at most age levels.
+           Hi! My name is Emilio. I am web developer and Unreal scripter. I like
+                          using my background in psychology and education
+                          to create intuitive UI. I've created AI and UI in Unreal 4 using behavior trees and widgets, I have
+                          created full stack websites on a team of 4 and currently teach Unreal and Adobe animate.
+                          I have taught at most age levels.
            </p>
          </Container>
        </Jumbotron>

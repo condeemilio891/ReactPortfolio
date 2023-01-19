@@ -16,6 +16,7 @@ import SolarSystemWebPic from "../../assets/SolarSystemInfoWebPic.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilm } from '@fortawesome/free-solid-svg-icons'
 import NeonCard from "../../components/NeonCard/NeonCard"
+import TexasPic from "../../assets/sahadPicture.png"
 
 
 function Projects() {
@@ -23,7 +24,28 @@ function Projects() {
     <div id="projectbg">
       <TabNav>
         
-      <div label="MarsPhotoSearch">
+      <div label="20 Artists from Texas">
+        
+          
+            
+        <Container>
+        <MyCard
+        imgsrc={TexasPic}
+        title="20 Artists from Texas"
+        activeGit="https://github.com/condeemilio891/TexasMusic"
+        activeLink="https://condeemilio891.github.io/TexasMusic/"
+      ></MyCard>
+     </Container>
+          <NeonCard
+          cardTitleLeft="20 Artists from Texas "
+           cardTextLeft="In memory of Daniel Sahad of Nane here are 20 musicians from Texas that rock. Mobile version work in progress.
+           "
+           cardTextRight="I Used Material ui, Styled-Compenents, React spring for animation and UI. I focused on making the website simple and
+           beautiful."
+          />
+  </div>
+
+  <div label="Solar System">
         
           
             
